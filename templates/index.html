@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hashtag Helper</title>
+        <link rel="stylesheet" href="static/style.css">
+        <script src="static/popup.js"></script>
+        <script src="static/industry_dropdown.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3BVGehNIwyoFXC_mYgrOnntTbtMuzp20&libraries=places"></script>
+        <!--Make a check that would reject non addresses-->
+        <script>
+            function initAutocomplete() {
+                // Bind autocomplete to location input field
+                var locationInput = document.getElementById('location');
+                var autocomplete = new google.maps.places.Autocomplete(locationInput);
+            }
+        </script>
+        <script>
+            var input = document.getElementById('location');
+            var options = {
+                types: ['(regions)'],
+                componentRestrictions: {country: 'us'}
+            };
+            var autocomplete = new google.maps.places.Autocomplete(input, options);
+        </script>
+    </head>
+<body onload="initAutocomplete()">
+    <h1>HashtagHelper</h1>
+    <div class="center">
+        <form action="/submit" method="POST" class="form">
+            <h2>Location</h2>
+            <label for="location">Location</label>
+            <input type="text" id="location" name="location" placeholder="Enter your business' address">
+            <h2>Industry</h2>
+            <label for="industry">Industry</label>
+            <input type="text" id="industry" name="industry" placeholder="Enter your business' industry">
+            <select id="industry-dropdown"></select>
+            <h2>Business Name</h2>
+            <label for="business-name">Business Name</label>
+            <input type="text" id="business-name" name="business-name" placeholder="Enter your business' name">
+            <h2>Caption</h2>
+            <label for="caption">Caption</label>
+            <textarea id="caption" name="caption" placeholder="Enter a caption that you would use for your post"></textarea>
+            <br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div id="popup"></div>
+</body>
+</html>
