@@ -1,5 +1,0 @@
-flask
-flask-wtf
-python-dotenv
-requests
-pymongo
