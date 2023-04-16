@@ -97,26 +97,3 @@ option {
     color: black;
     font-size: 16px;
 }
-
-/* All dropdown CSS doesn't work for some god damn reason */ 
-
-.dropdown {
-    position: absolute;
-    z-index: 999;
-    display: block;
-    visibility: hidden;
-}
-
-.dropdown.show {
-    visibility: visible;
-}
-  
-.dropdown-option {
-    padding: 5px;
-    cursor: pointer;
-}
-  
-.dropdown-option:hover {
-    background-color: #ddd;
-}
-  
