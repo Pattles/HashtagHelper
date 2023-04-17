@@ -1,5 +1,5 @@
 {
     "Landscaping":["hardscaping", "softscaping", "irrigation", "lawncare", "treetrimming", "mulching"],
     "Real Estate":["property", "home", "house", "apartment", "condo", "mortgage", "refinance", "rental", "lease", "investment", "equity", "closing", "agent", "broker", "listing", "inspection", "appraisal", "zoning", "renovation", "foreclosure"],
-    "Fast Food":["hamburger", "fries", "chicken nuggets", "tacos", "pizza", "burrito", "milkshake", "soda", "onion rings", "wrap", "fried chicken", "hot dog", "french toast sticks", "breakfast sandwiches", "smoothies", "fish sandwiches", "hash browns", "drive-thru", "takeout"]
+    "Fast Food":["hamburger", "fries", "nuggets", "tacos", "pizza", "burrito", "milkshake", "soda", "wrap", "smoothies", "drive-thru", "takeout"]
 }
