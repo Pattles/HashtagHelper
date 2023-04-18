@@ -1,12 +1,8 @@
 Accounting
 Airbnb
 Art
-Architect
-Breeding
 Book Store
-Brewing
-Butchering
-Car Insurance 
+Breeding
 Car Rentals
 Car Repairs
 Casino
@@ -15,79 +11,38 @@ Church
 Civil Engineering
 Computer Repairs
 Concert
-Crop Production
-Custom furniture
-Data Infrastructure
-Dentist
+Dentistry
 Dining
-Discount furniture
-Dumpster
 Education
 Electrical Engineering
-Equipment Rentals
-Farming
+Equipment Rental
+Farm Stand
 Fashion
 Fast Food
-Festival
-Fishing Guide
 Financial Advising
+Fishing
 Garden Center
 Healthcare
+Historical Site
 Investor
 Landscaping
-Leatherworking
-Library
-Lodging
 Masonry
-Magazines
 Manufacturing
 Marketing Agency
 Mechanical Engineering
-Museum
 News
-Office Support Services 
-Outdoor Services
+Office Support Services
 Painting
 Phone Repairs
 Plumbing
 Printing
-Produce
 Radio
-Recycling 
-Realtor
+Real Estate
 Resort
 Roofing
 Sanitation
-Self storage
-Shop Rentals
+Self Storage
 Sporting Event
 Steak House
-Supermarket
-Taxidermy
-Theater
-Theme park
-Training
-Trucking
-Tutoring
+Towing
 Warehousing
-Welding
-YMCA
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
