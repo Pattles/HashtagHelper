@@ -19,3 +19,5 @@ After you create a pull request & successfully merge, you should see a message t
 3. In terminal, type in `git branch -d your_branch_name`. 
 > Make sure you DO NOT DELETE the `main` branch. 
 4. Restart VSCode.
+5. Create a new branch via VSCode by clicking the `main*` button on your bottom left & name it whatever.
+6. Start working on your new branch. After you add a commit, click `Publish branch`
