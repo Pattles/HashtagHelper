@@ -1,32 +1,137 @@
 {
-    "Accounting":{},
-    "Airbnb":{},
-    "Art":{},
-    "Architect":{},
-    "Breeding":{},
-    "Book Store":{},
-    "Brewing":{},
-    "Butchering":{},
-    "Car Insurance ":{},
-    "Car Rentals":{},
-    "Car Repairs":{},
-    "Casino":{},
-    "Chiropractor":{},
-    "Church":{},
-    "Civil Engineering":{},
-    "Computer Repairs":{},
-    "Concert":{},
-    "Crop Production":{},
-    "Custom furniture":{},
-    "Data Infrastructure":{},
-    "Dentist":{},
-    "Dining":{},
-    "Discount furniture":{},
-    "Education":{},
-    "Electrical Engineering":{},
-    "Equipment Rentals":{},
-    "Farming":{},
-    "Fashion":{},
+    "Accounting":{
+        "#accountantandartist": 3121,
+        "#accountantsarecool": 3037,
+        "#accountantouting": 3017,
+        "#accountantsrock": 2986,
+        "#accountantshavefuntoo": 2803,
+        "#smallbusinessaccountant": 2322,
+        "#accountanthumor": 2251,
+        "#accountingservice": 4426,
+        "#softwareaccounting": 3959,
+        "#accountingstaff": 3604,
+        "#taxaccounting": 3439,
+        "#accountingdept": 3284
+    },
+    "Airbnb":{
+        "#airbnbmanagement": 14228,
+        "#airbnb": 4708969,
+        "#airbnbopen": 13648,
+        "#airbnbcoupon": 12043,
+        "#airbnbpartner": 11999,
+        "#airbnbsuperhosts": 11982
+    },
+    "Art":{
+        "#modernart": 16258864,
+        "#urbanart": 14492932,
+        "#artists": 13966646
+    },
+    "Book Store":{
+        "#scrapbook": 2844657,
+        "#comicbook": 2789484,
+        "#bookporn": 2615424,
+        "#booking": 2481861,
+        "#bookclub": 2473640,
+        "#ilovebooks": 2439687,
+        "#ebook": 2435436,
+        "#kidslookbook": 2367246,
+        "#childrensbooks": 2366136
+    },
+    "Breeding":{
+        "#breedingstock": 5501,
+        "#responsiblebreeding": 5078,
+        "#inbreeding": 4834
+    },
+    "Car Rentals":{
+        "#instacars": 7629518,
+        "#racecar": 7487638,
+        "#cargram": 6622748
+    },
+    "Car Repairs":{
+        "#carrepair":1
+    },
+    "Casino":{
+        "#casinofun": 44029,
+        "#casinoroyal": 27656
+    },
+    "Chiropractor":{
+        "#chiropractor":1
+    },
+    "Church":{
+        "#thechurchofjesuschristoflatterdaysaints": 154526,
+        "#stylegoestochurch": 152279,
+        "#churchesofinstagram": 150877,
+        "#mychurch": 140397
+    },
+    "Civil Engineering":{
+        "#civilengineering": 65204,
+        "#civilwork": 62113
+    },
+    "Computer Repairs":{
+        "#personalcomputer": 23904,
+        "#newcomputer": 23644,
+        "#computertech": 22992,
+        "#computerlab": 22822,
+        "#computerproblems": 22185
+    },
+    "Concert":{
+        "#summerconcert": 112688,
+        "#concertnight": 109138
+    },
+    "Dentistry":{
+        "#dentistoffice": 90101,
+        "#instadentist": 88458,
+        "#kidsdentist": 78821,
+        "#dentisttime": 67051,
+        "#dentistappointment": 66856,
+        "#dentistday": 66706,
+        "#generaldentistry": 62350,
+        "#dentistvisit": 57483
+    },
+    "Dining":{
+        "#dining": 3853349,
+        "#diningexperience": 53773,
+        "#diningarea": 51736,
+        "#familyrestaurant": 170535,
+        "#foodphoto": 7820982,
+        "#foodlove": 7773452,
+        "#igfood": 7771560,
+        "#foodiegram": 7433680,
+        "#comfortfood": 7127447,
+        "#instafoodie": 6956649,
+        "#foodoftheday": 6744279
+    },
+    "Education":{
+        "#educationispower": 134731,
+        "#healtheducation": 111082,
+        "#earlyyearseducation": 103079
+    },
+    "Electrical Engineering":{
+        "#electricalrepair": 79557,
+        "#electricalservice": 7909
+    },
+    "Equipment Rental":{
+        "#equipmentrental": 35807,
+        "#pilatesequipment": 33323,
+        "#earthmovingequipment": 29899
+    },
+    "Farm Stand":{
+        "#farmtofork": 390693,
+        "#farmhouseliving": 356858,
+        "#farm365": 350329,
+        "#organicfarm": 326298
+    },
+    "Fashion":{
+        "#highfashion": 8383034,
+        "#plussizefashion": 8302743,
+        "#hairfashion": 8144926,
+        "#vintagefashion": 7778666,
+        "#fallfashion": 7430613,
+        "#fashiongirl": 7294851,
+        "#fashionstylist": 7210601,
+        "#fashionjewelry": 7017288,
+        "#fashionistas": 6751582
+    },
     "Fast Food":{
         "#burger": 16622371,
         "#delicious": 109745418,
@@ -39,12 +144,67 @@
         "#instafood": 169891658,
         "#yummy": 15344390
     },
-    "Festival":{},
-    "Fishing Guide":{},
-    "Financial Advising":{},
-    "Garden Center":{},
-    "Healthcare":{},
-    "Investor":{},
+    "Financial Advising":{
+        "#financialsupport": 40215,
+        "#financialplan": 38339,
+        "#financially": 37498,
+        "#financials": 36468,
+        "#financialempowerment": 34684,
+        "#financialcoaching": 33825,
+        "#financialadvisors": 33813,
+        "#financiallyfit": 32050,
+        "#financialtechnologi": 31792
+    },
+    "Fishing":{
+        "#offshorefishing": 445625,
+        "#deepseafishing": 424286,
+        "#fishinggear": 420842,
+        "#flyfishingnation": 411279,
+        "#instafishing": 389231,
+        "#salmonfishing": 334448
+    },
+    "Garden Center":{
+        "#favv_flowers": 1009332,
+        "#bestflowerspics": 1002405,
+        "#yellowflowers": 902552,
+        "#flowers_super_pics": 848359,
+        "#flowersoftheday": 840752,
+        "#instagardenlovers": 846405,
+        "#backyardgarden": 824105,
+        "#macrogardener": 765818,
+        "#kitchengarden": 735308,
+        "#gardensofinstagram": 692565
+    },
+    "Healthcare":{
+        "#healthcareheros": 16256,
+        "#healthcaretips": 15054,
+        "#healthcarelife": 14278,
+        "#babyhealthcare": 13689,
+        "#supporthealthcareworkers": 132628,
+        "#healthcareproviders": 123489,
+        "#healthcare": 11002
+    },
+    "Historical Site":{
+        "#historicalhomes": 23750,
+        "#historicalpark": 20726,
+        "#historicaltown": 20189,
+        "#historicalfacts": 16589,
+        "#historicalmuseum": 15756,
+        "#historicalhome": 15602,
+        "#historicalsociety": 15426,
+        "#historicalphotography": 14381,
+        "#historicalchurch": 14238
+    },
+    "Investing":{
+        "#investorsclub": 15582,
+        "#investorspecial": 14254,
+        "#womeninvestors": 13317,
+        "#investorsbusinessdaily": 13159,
+        "#strictlyinvestor": 12549,
+        "#noteinvestors": 12056,
+        "#intelligentinvestor": 11919,
+        "#cryptoinvestors": 10443
+    },
     "Landscaping":{
         "#backyardlandscaping": 4206,
         "#greenlawn": 33550,
@@ -57,25 +217,100 @@
         "#softlandscaping": 3896,
         "#thelawn": 27714
     },
-    "Leatherworking":{},
-    "Library":{},
-    "Lodging":{},
-    "Masonry":{},
-    "Magazines":{},
-    "Manufacturing":{},
-    "Marketing Agency":{},
-    "Mechanical Engineering":{},
-    "Museum":{},
-    "News":{},
-    "Office Support Services ":{},
-    "Outdoor Services":{},
-    "Painting":{},
-    "Phone Repairs":{},
-    "Plumbing":{},
-    "Printing":{},
-    "Produce":{},
-    "Radio":{},
-    "Recycling ":{},
+    "Manufacturing":{
+        "#smartmanufacturing": 4701,
+        "#fashionmanufacturing": 4050,
+        "#manufacturingindustry": 4041,
+        "#usamanufacturing": 3712,
+        "#remanufacturing": 3391
+    },
+    "Marketing Agency":{
+        "#marketingplan": 402808,
+        "#webmarketing": 398636,
+        "#marketingsocial": 365471,
+        "#networkmarketingpro": 360991,
+        "#marketingestrategico": 353461,
+        "#facebookmarketing": 352082,
+        "#smallbusinessmarketing": 341024,
+        "#marketinglife": 333097,
+        "#businessmarketing": 327142,
+        "#mobilemarketing": 324399
+    },
+    "Masonry":{
+        "#comasonry": 946,
+        "#masonrysupply": 853,
+        "#masonrytools": 664,
+        "#stonemasonryart": 660,
+        "#masonrycleaning": 659
+    },
+    "Mechanical Engineering":{
+        "#mechanicalcontractor": 1099510,
+        "#mechanical_engineer": 9914
+    },
+    "News":{
+        "#nflnews": 607701,
+        "#footballnews": 593887,
+        "#sportsnews": 583671,
+        "#nbanews": 525128,
+        "#boxingnews": 509959,
+        "#entertainmentnews": 509217,
+        "#newsletter": 469263,
+        "#newshop": 464912,
+        "#newstore": 445777
+    },
+    "Office Support Services":{
+        "#officegoals": 237816,
+        "#officetime": 213228,
+        "#officesupplies": 206082,
+        "#officefun": 205730,
+        "#shoutoutoffice": 190675,
+        "#officefashion": 188388,
+        "#officeinterior": 179618,
+        "#todaysoffice": 163326,
+        "#officeoftheday": 157781
+    },
+    "Painting":{
+        "#artpainting": 521826,
+        "#modernpainting": 488249,
+        "#figurepainting": 487044,
+        "#paintingminiatures": 469237,
+        "#livepainting": 451410,
+        "#flowerpainting": 436870,
+        "#dailypainting": 420073,
+        "#acrylicpaintings": 370207,
+        "#minipainting": 368443
+    },
+    "Phone Repairs":{
+        "#phonerepair":1
+    },
+    "Plumbing":{
+        "#plumbingdesign": 5013,
+        "#plumbingapprentice": 4573,
+        "#plumbingsupplies": 4168,
+        "#loveplumbing": 4110,
+        "#roofplumbing": 3948,
+        "#plumbingpro": 3743,
+        "#plumbinginstallations": 3485,
+        "#plumbingcompanies": 3183
+    },
+    "Printing":{
+        "#scarfprinting": 120365,
+        "#tasprinting": 108808,
+        "#maxiprinting": 105850,
+        "#watertransferprinting": 104850,
+        "#printingservices": 97141,
+        "#largeformatprinting": 96122
+    },
+    "Radio":{
+        "#hiphopradio": 160612,
+        "#liveradio": 147849,
+        "#instaradio": 146348,
+        "#radiodeejay": 143969,
+        "#tuneinradio": 139988,
+        "#radios": 137422,
+        "#radiofm": 134905,
+        "#collegeradio": 132776
+    },
     "Real Estate":{
         "#futurehouse": 1262290,
         "#homeinterior": 3464341,
@@ -88,22 +323,58 @@
         "#realestateinvestor": 1971384,
         "#realtors": 1990964
     },
-    "Resort":{},
-    "Roofing":{},
-    "Sanitation":{},
-    "Self storage":{},
-    "Shop Rentals":{},
-    "Sporting Event":{},
-    "Steak House":{},
-    "Supermarket":{},
-    "Taxidermy":{},
-    "Theater":{},
-    "Theme park":{},
-    "Training":{},
-    "Trucking":{},
-    "Tutoring":{},
-    "Warehousing":{},
-    "Welding":{},
-    "YMCA":{}
-
+    "Resort":{
+        "#resort": 7335651,
+        "#resortcollection": 73595,
+        "#travel": 492251333,
+        "#vacation": 117463109,
+        "#summer": 450939349
+    },
+    "Roofing":{
+        "#roofingspecialists": 5431,
+        "#roofingsystems": 5287,
+        "#roofingmaterials": 5128,
+        "#roofingsheets": 5047,
+        "#roofingcrew": 5015
+    },
+    "Sanitation":{
+        "#sanitationmatters": 334,
+        "#hygieneandsanitation": 311,
+        "#sanitationisdignity": 256,
+        "#servicesanitation": 252,
+        "#deptofsanitation": 250
+    },
+    "Self Storage":{
+        "#selfstorage": 126797,
+        "#unlimitedselfstorage": 108,
+        "#selfstorageconversion": 65,
+        "#selfstoragetech": 55
+    },
+    "Sporting Event":{
+        "#sportingevent": 9292
+    },
+    "Steak House":{
+        "#cheesesteaks": 73700,
+        "#filletsteak": 67578,
+        "#steakandpotatoes": 66116,
+        "#steaksalad": 65396,
+        "#chickenfriedsteak": 64804,
+        "#steaktime": 64683,
+        "#hangersteak": 60553
+    },
+    "Towing":{
+        "#towing": 432660,
+        "#towingbar": 4476,
+        "#cartowing": 4403,
+        "#viptowing": 4361,
+        "#freetowing": 4067,
+        "#jasatowingmobil": 3981,
+        "#jetstowing": 3826,
+        "#flatbedtowing": 3797,
+        "#towingsolo": 3736
+    },
+    "Warehousing":{
+        "#warehouse": 1341461,
+        "#warehousing": 66595
+    }
 }
