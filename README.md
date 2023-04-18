@@ -10,3 +10,12 @@ To run, start `app.py`.
 3. Wait for the installation process to complete. Once completed, you should see a message indicating that all the required packages have been successfully installed.
 
 After this, you can import the required packages in your Python code using import statements.
+
+## Steps after merging (VSCode)
+After you create a pull request & successfully merge, you should see a message that displays "You can now delete your branch" or similar.
+
+1. Delete your branch (only after merging)
+2. In VSCode, open your terminal & type in `git checkout main` to switch to the main branch.
+3. In terminal, type in `git branch -d your_branch_name`. 
+> Make sure you DO NOT DELETE the `main` branch. 
+4. Restart VSCode.
