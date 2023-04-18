@@ -2,6 +2,8 @@
 
 HashtagHelper is a #hashtag service that will auto-generate hashtags for social media posts, using AI to find the best hashtags for you.
 
+To run, start `app.py`.
+
 ## Requirements
 1. Open your command prompt or terminal and navigate to your project directory.
 2. Run the command `pip install -r requirements.txt`.
