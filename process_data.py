@@ -78,7 +78,7 @@ def get_business_name_hashtag(business_name):
     """
 
     business_name = business_name.lower().replace(' ', '').replace("'", '').replace('#', '')
-    hashtag = '#{}'.format(business_name)
+    hashtag = '#{}'.format(business_name) if business_name else None
 
     return hashtag
 

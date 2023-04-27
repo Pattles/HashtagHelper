@@ -6,7 +6,6 @@
         <link rel="stylesheet" href="static/style.css">
         <script src="static/popup.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3BVGehNIwyoFXC_mYgrOnntTbtMuzp20&libraries=places"></script>
-        <!--Make a check that would reject non addresses-->
         <script>
             function initAutocomplete() {
                 // Bind autocomplete to location input field
@@ -30,9 +29,13 @@
             <h2>Location</h2>
             <label for="location">Location</label>
             <input type="text" id="location" name="location" placeholder="Enter your business' address">
-            <h2>Industry</h2>
-            <label for="industry">Industry</label>
-            <input type="text" id="industry" name="industry" placeholder="Enter your business' industry">
+            <div class="input-group">
+                <div class="input-group-item">
+                    <h2>Industry</h2>
+                    <label for="industry" >Industry</label>
+                    <input type="text" id="industry" name="industry" placeholder="Enter your business' industry" required>
+                </div>
+            </div>
             <h2>Business Name</h2>
             <label for="business-name">Business Name</label>
             <input type="text" id="business-name" name="business-name" placeholder="Enter your business' name">
@@ -42,7 +45,11 @@
             <br><br>
 
             <input type="submit" value="Generate Hashtags">
-            <br><br><br><br><br>
+            <br><br><br>
+            <p>
+                For questions, support, or feedback, email us at <a href="mailto:info.socialtechllc@gmail.com" target="_blank">info.socialtech@gmail.com</a>
+            </p>
+            <br><br>
         </form>
     </div>
     <div id="popup"></div>

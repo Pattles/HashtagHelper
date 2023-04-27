@@ -3,7 +3,7 @@ body {
     background-color: #48ddc8;
 }
 
-h1, h2 {
+h1, h2, p {
     text-align: center;
     color: white;
     margin-top: 50px;
@@ -21,7 +21,6 @@ label {
     text-align: center;
     border: solid darkcyan;
     border-radius: 14%;
-    /* Remove border and border-radius after you center the text */
 }
 
 input[type='text'],
@@ -50,7 +49,7 @@ input[type='submit'] {
 input[type='submit']:hover {
     background-color: #48ddc8;
     color: white;
-    border: #48ddc8;
+    border: white;
     border-radius: 4px;
 }
 
@@ -97,3 +96,17 @@ option {
     color: black;
     font-size: 16px;
 }
+
+.autocomplete-items {
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-radius: 4px;
+    margin-top: 50px;
+    width: 40%;
+    overflow-y: auto;
+    transform: translateX(66%);
+    text-align: center;
+    padding: 12px 20px;
+}
+  
