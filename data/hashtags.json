@@ -26,6 +26,13 @@
         "#urbanart": 14492932,
         "#artists": 13966646
     },
+    "Bakery":{
+        "#bakeryhouse": 67501,
+        "#bestbakery": 56359,
+        "#citybakery": 51494,
+        "#healthybakery": 49460,
+        "#bakeryrd": 49284
+    },
     "Book Store":{
         "#scrapbook": 2844657,
         "#comicbook": 2789484,
@@ -34,13 +41,36 @@
         "#bookclub": 2473640,
         "#ilovebooks": 2439687,
         "#ebook": 2435436,
-        "#kidslookbook": 2367246,
         "#childrensbooks": 2366136
     },
     "Breeding":{
         "#breedingstock": 5501,
         "#responsiblebreeding": 5078,
         "#inbreeding": 4834
+    },
+    "Brewery":{
+        "#thebrewery": 23912,
+        "#craftbeergeek": 868390,
+        "#beeradvocate": 784262,
+        "#goodbeer": 753247,
+        "#lovebeer": 741044,
+        "#beergram": 736831,
+        "#craftbeers": 702796,
+        "#beertasting": 690708,
+        "#localbeer": 687489,
+        "#beeroclock": 680836
+    },
+    "Cafe":{
+        "#coffeeislife": 1200365,
+        "#lovecoffee": 1149580,
+        "#coffeebeans": 1126065,
+        "#coffeesesh": 1089471,
+        "#coffeeshots": 1088582,
+        "#coffee_inst": 999419,
+        "#manmakecoffee": 981871,
+        "#coffeeroaster": 969093,
+        "#coffeegeek": 954144,
+        "#coffeebar": 938344
     },
     "Car Rentals":{
         "#instacars": 7629518,
@@ -54,11 +84,18 @@
         "#casinofun": 44029,
         "#casinoroyal": 27656
     },
+    "Chinese Cuisine":{
+        "#loveforchinesefood": 2865,
+        "#yummychinesefood": 2514,
+        "#chinesefooddelivery": 2398,
+        "#chinesefoodfestival": 2377,
+        "#instachinesefood": 2355,
+        "#chinesefoodlove": 2311
+    },
     "Chiropractor":{
         "#chiropractor":1
     },
     "Church":{
-        "#thechurchofjesuschristoflatterdaysaints": 154526,
         "#stylegoestochurch": 152279,
         "#churchesofinstagram": 150877,
         "#mychurch": 140397
@@ -66,6 +103,18 @@
     "Civil Engineering":{
         "#civilengineering": 65204,
         "#civilwork": 62113
+    },
+    "Coffee Shop":{
+        "#coffeeislife": 1200365,
+        "#lovecoffee": 1149580,
+        "#coffeebeans": 1126065,
+        "#coffeesesh": 1089471,
+        "#coffeeshots": 1088582,
+        "#coffee_inst": 999419,
+        "#manmakecoffee": 981871,
+        "#coffeeroaster": 969093,
+        "#coffeegeek": 954144,
+        "#coffeebar": 938344
     },
     "Computer Repairs":{
         "#personalcomputer": 23904,
@@ -155,6 +204,12 @@
         "#financiallyfit": 32050,
         "#financialtechnologi": 31792
     },
+    "Fine Dining":{
+        "#finefood": 371917,
+        "#diningexperience": 53773,
+        "#waterfrontdining": 53042,
+        "#diningarea": 51736
+    },
     "Fishing":{
         "#offshorefishing": 445625,
         "#deepseafishing": 424286,
@@ -184,6 +239,16 @@
         "#healthcareproviders": 123489,
         "#healthcare": 11002
     },
+    "Health Food":{
+        "#healthfoodlover": 1325,
+        "#healthfoodrestaurant": 1243,
+        "#lovehealthfood": 1131,
+        "#healthfoodedition": 1128,
+        "#healthfoodcentral": 1119,
+        "#healthfoodaddict": 1055,
+        "#healthfoodlab": 1045,
+        "#healthfoodspa": 1019
+    },
     "Historical Site":{
         "#historicalhomes": 23750,
         "#historicalpark": 20726,
@@ -204,6 +269,25 @@
         "#noteinvestors": 12056,
         "#intelligentinvestor": 11919,
         "#cryptoinvestors": 10443
+    },
+    "Ice Cream Shop":{
+        "#strawberryicecream": 124431,
+        "#bananaicecream": 122265,
+        "#icecreamofinsta": 120083,
+        "#besticecream": 113313,
+        "#icecreamdate": 106830,
+        "#icecreamman": 106066,
+        "#icecreamday": 101815,
+        "#icecreamparty": 101709
+    },
+    "Japanese Cuisine":{
+        "#japanesenoodle": 209050,
+        "#japanesefoodstreet": 2516,
+        "#japanesefoodislove": 2411,
+        "#japanesefoodphoto": 2157,
+        "#japanesefoodpic": 2136,
+        "#yummyjapanesefood": 2122,
+        "#japanesefoodph": 2089
     },
     "Landscaping":{
         "#backyardlandscaping": 4206,
@@ -247,6 +331,18 @@
         "#mechanicalcontractor": 1099510,
         "#mechanical_engineer": 9914
     },
+    "Mexican Cuisine":{
+        "#goodmexicanfood": 2692,
+        "#mexicanfoodisthebestfood": 2672,
+        "#mexicanfoodstagram": 2473,
+        "#freshmexicanfood": 2467,
+        "#yummymexicanfood": 2345,
+        "#mexicanfoodaddict": 2261,
+        "#mexicanfoodfordays": 2229,
+        "#greatmexicanfood": 2219,
+        "#mexicanfoodrecipes": 2097,
+        "#lovemesomemexicanfood": 2094
+    },
     "News":{
         "#nflnews": 607701,
         "#footballnews": 593887,
@@ -280,8 +376,27 @@
         "#acrylicpaintings": 370207,
         "#minipainting": 368443
     },
+    "Pastry Shop":{
+        "#pastryclass": 54675,
+        "#pastrycook": 54494,
+        "#bakingandpastry": 51512,
+        "#homemadepastry": 49970,
+        "#danishpastry": 49675,
+        "#chefpastry": 46729
+    },
     "Phone Repairs":{
         "#phonerepair":1
+    },
+    "Pizzeria":{
+        "#dailypizza": 316970,
+        "#pizzaitaliana": 307232,
+        "#pizzagate": 302903,
+        "#italianpizza": 300020,
+        "#nationalpizzaday": 251146,
+        "#pepperonipizza": 224795,
+        "#pizzasisters4lyfe": 193740,
+        "#pizzapie": 185967,
+        "#pizzaslice": 184715
     },
     "Plumbing":{
         "#plumbingdesign": 5013,

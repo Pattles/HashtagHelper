@@ -36,6 +36,20 @@
         "audition",
         "backstage"
     ],
+    "Bakery":[
+        "bread",
+        "cakes",
+        "cookies",
+        "pies",
+        "donuts",
+        "bagels",
+        "muffins",
+        "cupcakes",
+        "brownies",
+        "biscuits",
+        "rolls",
+        "scones"
+    ],
     "Book Store":[
         "literature",
         "fiction",
@@ -59,6 +73,29 @@
         "inbreeding",
         "conformation",
         "crossbreeding"
+    ],
+    "Brewery":[
+        "beer",
+        "microbrewery",
+        "ipa",
+        "stout",
+        "lager",
+        "pilsner",
+        "hefeweizen",
+        "ale",
+        "taproom",
+        "growler",
+        "barrel-aged",
+        "keg",
+        "homebrewing"
+    ],
+    "Cafe":[
+        "coffee",
+        "espresso",
+        "latte",
+        "cappuccino",
+        "croissant",
+        "quiche"
     ],
     "Car Rentals":[],
     "Car Repairs":[
@@ -85,6 +122,13 @@
         "baccarat",
         "jackpot",
         "casino"
+    ],
+    "Chinese Cuisine":[
+        "dumplings",
+        "noodles",
+        "wontons",
+        "baozi",
+        "peking"
     ],
     "Chiropractor":[
         "spine",
@@ -128,6 +172,14 @@
         "roadway",
         "bridge",
         "geotechnical"
+    ],
+    "Coffee Shop":[
+        "coffee",
+        "espresso",
+        "latte",
+        "cappuccino",
+        "croissant",
+        "quiche"
     ],
     "Computer Repairs":[
         "laptop",
@@ -191,7 +243,9 @@
     "Electrical Engineering":[
         "robotics"
     ],
-    "Equipment Rental":[],
+    "Equipment Rental":[
+        "equipment rentals"
+    ],
     "Farm Stand":[
         "fresh",
         "local",
@@ -222,7 +276,7 @@
     "Fast Food":[
         "hamburger", 
         "fries", 
-        "nuggets", 
+        "nuggets",
         "tacos", 
         "pizza", 
         "burrito", 
@@ -235,6 +289,20 @@
     ],
     "Financial Advising":[
         "charitable"
+    ],
+    "Fine Dining":[
+        "degustation",
+        "tasting menu",
+        "amuse-bouche",
+        "caviar",
+        "truffles",
+        "wagyu",
+        "lobster",
+        "scallops",
+        "chateaubriand",
+        "chardonnay",
+        "champagne",
+        "sommelier"
     ],
     "Fishing":[
         "bait",
@@ -281,6 +349,23 @@
         "optometry",
         "podiatry"
     ],
+    "Health Food":[
+        "organic",
+        "non-gmo",
+        "gluten-free",
+        "dairy-free",
+        "plant-based",
+        "vegetarian",
+        "vegan",
+        "superfoods",
+        "nutrient-dense",
+        "supplements",
+        "probiotics",
+        "detox",
+        "smoothie",
+        "wellness",
+        "holistic"
+    ],
     "Historical Site":[
         "monument",
         "landmark",
@@ -297,6 +382,15 @@
         "conservation",
         "folklore"
     ],
+    "Ice Cream Shop":[
+        "gelato",
+        "sorbet",
+        "sundae",
+        "milkshake",
+        "sprinkles",
+        "affogato",
+        "sherbet"
+    ],
     "Investing":[
         "stocks",
         "securities",
@@ -307,6 +401,41 @@
         "bonds",
         "options",
         "derivatives"
+    ],
+    "Italian Cuisine":[
+        "pizza",
+        "pasta",
+        "spaghetti",
+        "lasagna",
+        "ravioli",
+        "meatballs",
+        "bruschetta",
+        "antipasto",
+        "tiramisu",
+        "cannoli",
+        "gelato",
+        "gnocchi",
+        "carbonara",
+        "risotto",
+        "osso buco"
+    ],
+    "Japanese Cuisine":[
+        "sushi",
+        "sashimi",
+        "ramen",
+        "udon",
+        "tempura",
+        "teriyaki",
+        "yakitori",
+        "miso",
+        "edamame",
+        "bento",
+        "onigiri",
+        "okonomiyaki",
+        "takoyaki",
+        "tonkatsu",
+        "wasabi",
+        "matcha"
     ],
     "Landscaping":[
         "hardscaping", 
@@ -360,6 +489,24 @@
         "cam",
         "biomechanics"
     ],
+    "Mexican Cuisine":[
+        "tacos",
+        "burritos",
+        "enchiladas",
+        "fajitas",
+        "quesadillas",
+        "guacamole",
+        "salsa",
+        "nachos",
+        "churros",
+        "horchata",
+        "margaritas",
+        "micheladas",
+        "flautas",
+        "tamales",
+        "chimichangas",
+        "pozole"
+    ],
     "News":[
         "publication",
         "editorial",
@@ -391,6 +538,25 @@
     "Painting":[
         "painting"
     ],
+    "Pastry Shop":[
+        "croissant",
+        "danish pastries",
+        "danish pastry",
+        "tarts",
+        "eclair",
+        "macaron",
+        "cannoli",
+        "profiterole",
+        "napoleon",
+        "cream puff",
+        "cream puffs",
+        "chocolate truffle",
+        "chocolate truffles",
+        "petit four",
+        "baklava",
+        "strudel",
+        "cheesecake"
+    ],
     "Phone Repairs":[
         "smartphone",
         "iphone",
@@ -401,6 +567,16 @@
         "camera",
         "unlocking",
         "headphones"
+    ],
+    "Pizzeria":[
+        "pizza",
+        "calzone",
+        "stromboli",
+        "garlic bread",
+        "breadsticks",
+        "specialty pizzas",
+        "veggie pizzas",
+        "gluten-free options"
     ],
     "Plumbing":[
         "plumbing",
