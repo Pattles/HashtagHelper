@@ -88,25 +88,34 @@ def process_caption(caption):
     rtype: list - [(hashtag, uses), (hashtag, uses)]
     Note: There will be a lot of hashtags
     """
+    # Now supports multi-word hashtags!
 
-    with open('data/keywords.json', encoding='utf-8') as f:
-        keywords_json = json.load(f)
+    hashtag_list = []
 
     caption_list = caption.lower()
     caption_list = caption_list.replace("'", "").replace('"', '').replace(',', '').replace('.', '').replace('!', '').replace('?', '')
     caption_list = caption_list.split()
-    hashtag_list = []
 
-    for word in caption_list:
-        for industry, value in keywords_json.items():
-            if word in value:
-                industry_list = get_industry_list(industry)
-                hashtag_list.extend(industry_list)
-                break
-            else:
-                continue
+    keyword_processor = KeywordProcessor()
+    
+    with open('data/keywords.json', encoding='utf-8') as f:
+        keywords_json = json.load(f)
+
+    keyword_processor.add_keywords_from_dict(keywords_json)
+    # {'clean_name': ['list of unclean names']}
+
+    industries = keyword_processor.extract_keywords(caption)
+    # ['industryA', 'industryB', etc.]
+
+    if not industries:
+        return None
+
+    for industry in industries:
+        industry_list = get_industry_list(industry)
+        hashtag_list.extend(industry_list)
 
     return hashtag_list
+    
         
 def process_data(location, industry, business_name, caption):
     industry_list = get_industry_list(industry)
