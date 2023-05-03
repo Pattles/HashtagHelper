@@ -1,5 +1,13 @@
 from common import *
 
+def get_industries():
+    with open('data/keywords.json', encoding='utf-8') as f:
+        keywords_json = json.load(f)
+
+    industries = list(keywords_json.keys())
+
+    return industries
+
 def get_county(location):
     """
     Creates a hashtag for a COUNTY
@@ -115,8 +123,8 @@ def process_caption(caption):
         hashtag_list.extend(industry_list)
 
     return hashtag_list
-    
-        
+ 
+           
 def process_data(location, industry, business_name, caption):
     industry_list = get_industry_list(industry)
     business_name_hashtag = get_business_name_hashtag(business_name)
