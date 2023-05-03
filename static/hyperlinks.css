@@ -1,0 +1,25 @@
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:visited {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+    font-style: italic;
+}
+  
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight: bold;
+}
+  
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
