@@ -1,6 +1,10 @@
 from common import *
 
-def get_industries():
+def get_all_industries():
+    """
+    Gets a list of all industries from data/keywords.json
+    rtype: list
+    """
     with open('data/keywords.json', encoding='utf-8') as f:
         keywords_json = json.load(f)
 
@@ -11,7 +15,7 @@ def get_industries():
 def get_county(location):
     """
     Creates a hashtag for a COUNTY
-    rtype: #str
+    rtype: #str | None
     """
     
     url = f'https://maps.googleapis.com/maps/api/geocode/json?address={location}&components=country:US&key={google_maps_api_key}'
@@ -33,7 +37,7 @@ def get_county(location):
 def get_city(location):
     """
     Creates a hashtag for a CITY
-    rtype: #str
+    rtype: #str | None
     """
     
     url = f'https://maps.googleapis.com/maps/api/geocode/json?address={location}&components=country:US&key={google_maps_api_key}'
@@ -69,6 +73,10 @@ def get_industry_list(industry):
     rtype: list - [(hashtag, uses), (hashtag, uses)]
     """
 
+    # if not industry:
+        # return None
+        # Industry is required in the form.
+
     with open('data/hashtags.json', encoding='utf-8') as f:
         hashtags_json = json.load(f)
     
@@ -81,9 +89,11 @@ def get_industry_list(industry):
 def get_business_name_hashtag(business_name):
     """
     Creates a hashtag for a BUSINESS NAME
-    rtype: #str
-    
+    rtype: #str | None
     """
+
+    if not business_name:
+        return None
 
     business_name = business_name.lower().replace(' ', '').replace("'", '').replace('#', '')
     hashtag = '#{}'.format(business_name) if business_name else None
@@ -93,11 +103,14 @@ def get_business_name_hashtag(business_name):
 def process_caption(caption):
     """
     Gets the top 10 hashtags for an INDUSTRY for each word in a CAPTION
-    rtype: list - [(hashtag, uses), (hashtag, uses)]
+    rtype: list - [(hashtag, uses), (hashtag, uses)] | None
     Note: There will be a lot of hashtags
     """
     # Now supports multi-word hashtags!
 
+    if not caption:
+        return None
+    
     hashtag_list = []
 
     caption_list = caption.lower()
@@ -126,25 +139,42 @@ def process_caption(caption):
  
            
 def process_data(location, industry, business_name, caption):
+    """
+    Processes all of the inputted data. Returns a list of top 10 hashtags.
+    rtype: list
+    """
+
+    # Getting all hashtags from all functions. 'None' instances are handled later.
     industry_list = get_industry_list(industry)
     business_name_hashtag = get_business_name_hashtag(business_name)
-    location_hashtags = [get_city(location), get_county(location)]
+    city_hashtag = get_city(location)
+    county_hashtag = get_county(location)
     caption_hashtags = process_caption(caption)
 
     all_hashtags = []
+    
+    # if industry_list: - Industry is required in the form.
     all_hashtags.extend(industry_list)
-    all_hashtags.extend(caption_hashtags)
+    
+    if caption_hashtags:
+        all_hashtags.extend(caption_hashtags)
 
-    # Removing duplicate hashtags
+    # Removing duplicate hashtags.
     all_hashtags = list(set(all_hashtags))
 
-    # Getting top 7 hashtags
+    # Getting top 7 hashtags.
     sorted_hashtags = sorted(all_hashtags, key=lambda x: x[1], reverse=True)
     top_hashtags = [hashtag[0] for hashtag in sorted_hashtags[:7]]
 
     # Adding County, City, and Business name hashtags.
-    top_hashtags.append(business_name_hashtag)
-    top_hashtags.extend(location_hashtags)
+    if business_name_hashtag:
+        top_hashtags.append(business_name_hashtag)
+    
+    if county_hashtag:
+        top_hashtags.append(county_hashtag)
+
+    if city_hashtag:
+        top_hashtags.append(city_hashtag)
 
     return top_hashtags
     
