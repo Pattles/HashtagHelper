@@ -39,10 +39,8 @@ document.addEventListener('DOMContentLoaded', () => {
       hashtagsText.innerHTML = `Top Hashtags: <br><br> ${data.hashtags.join(' ')}`;
       popup.appendChild(hashtagsText);
 
-      // <br>
-      // const lineBreak = document.createElement('br');
-      // popup.appendChild(lineBreak);
-
+      
+      // This is broken ffs, dunno how to fix
       // Copy button
       const copyButton = document.createElement('button');
       copyButton.classList.add('copy-button');

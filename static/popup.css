@@ -36,6 +36,7 @@ body.blur > *:not(.popup) {
     visibility: hidden;
 }
   
+/* This is broken ffs, dunno how to fix */
 .copy-button {
     font-family: 'Trebuchet MS';
     background-color: #48ddc8;
