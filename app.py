@@ -10,7 +10,6 @@ def index():
 @app.route('/hashtags')
 def get_hashtags():
     # Retrieve the array of hashtags from your data source
-
     with open('data/hashtags.json', encoding='utf-8') as f:
         hashtags_json = json.load(f)
 
