@@ -7,6 +7,17 @@ app = Flask(__name__, static_folder='static')
 def index():
     return render_template('index.html')
 
+@app.route('/hashtags')
+def get_hashtags():
+    # Retrieve the array of hashtags from your data source
+
+    with open('data/hashtags.json', encoding='utf-8') as f:
+        hashtags_json = json.load(f)
+
+    industries = list(hashtags_json.keys())
+
+    return jsonify(industries)
+
 @app.route('/submit', methods=['POST'])
 def submit():
     location = request.form['location']
