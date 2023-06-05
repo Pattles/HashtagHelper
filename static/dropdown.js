@@ -3,68 +3,15 @@
 // Currently this is "placeholder", meaning it's not actually active. The code in index.html is the active one. 
 
 let inp = document.getElementById("industry")
-let arr = [
-"Accounting",
-"Airbnb",
-"Art",
-"Book Store",
-"Breeding",
-"Car Rentals",
-"Car Repairs",
-"Casino",
-"Chiropractor",
-"Church",
-"Civil Engineering",
-"Computer Repairs",
-"Concert",
-"Dentistry",
-"Dining",
-"Education",
-"Electrical Engineering",
-"Equipment Rental",
-"Farm Stand",
-"Fashion",
-"Fast Food",
-"Financial Advising",
-"Fishing",
-"Garden Center",
-"Healthcare",
-"Historical Site",
-"Investor",
-"Landscaping",
-"Masonry",
-"Manufacturing",
-"Marketing Agency",
-"Mechanical Engineering",
-"News",
-"Office Support Services",
-"Painting",
-"Phone Repairs",
-"Plumbing",
-"Printing",
-"Radio",
-"Real Estate",
-"Resort",
-"Roofing",
-"Sanitation",
-"Self Storage",
-"Sporting Event",
-"Steak House",
-"Towing",
-"Warehousing",
-"Pastry Shop",
-"Bakery",
-"Pizzeria",
-"Fine Dining",
-"Cafe",
-"Coffee Shop",
-"Brewery",
-"Ice Cream Shop",
-"Health food",
-"Mexican Cuisine",
-"Chinese Cuisine",
-"Japanese Cuisine"
-]
+// Gets a list of all Industries from hashtags.json
+        // See get_hashtags() in app.py for more info
+        fetch('/hashtags')
+            .then(response => response.json())
+            .then(data => {
+                let arr = data; // Array of hashtags assigned to 'arr'
+                autocomplete(inp, arr); // Call the autocomplete function with 'arr'
+            })
+            .catch(error => console.log(error));
 
 function autocomplete(inp, arr) {
     
