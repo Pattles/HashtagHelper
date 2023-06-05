@@ -18,14 +18,21 @@ document.addEventListener('DOMContentLoaded', () => {
     if (response.ok) {
       const data = await response.json();
       const popup = document.createElement('div');
-      popup.innerHTML = `Top hashtags: ${data.hashtags.join(' ')}`;
+
+      popup.innerHTML = `Top Hashtags: <br><br> ${data.hashtags.join(' ')}`;
       popup.classList.add('popup');
       document.body.appendChild(popup);
+      document.body.classList.add('blur');
 
-      // This is what makes you wait 3sec before it auto-closes the popup.
-      setTimeout(() => {
-        popup.remove();
-      }, 6000);
+      const closeButton = document.createElement('span');
+        closeButton.textContent = '✕';
+        closeButton.classList.add('close-btn');
+        closeButton.addEventListener('click', () => {
+          popup.remove();
+          document.body.classList.remove('blur');
+        });
+      popup.appendChild(closeButton);
+
     } else {
       console.error('Form submission failed.');
     }
