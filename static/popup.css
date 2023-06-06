@@ -21,6 +21,8 @@
 
 .hashtags-text {
     color: #48ddc8;
+    text-align: center;
+    margin: 0;
 }
 
 
@@ -48,7 +50,13 @@ body.blur > *:not(.popup) {
     cursor: pointer; 
     visibility: hidden;
 
-  bottom: 10px; /* Adjust the desired distance from the bottom */
-  left: 50%; /* Center the button horizontally */
-  transform: translateX(-50%); /* Adjust the horizontal positioning */
+    position: absolute;
+    bottom: 20px; /* Adjust the desired distance from the bottom */
+    left: 50%; /* Center the button horizontally */
+    transform: translateX(-50%); /* Adjust the horizontal positioning */
+}
+
+.copy-button.clicked {
+    background-color: #23BEA9;
+    color: white;
 }

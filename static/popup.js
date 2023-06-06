@@ -39,8 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
       hashtagsText.innerHTML = `Top Hashtags: <br><br> ${data.hashtags.join(' ')}`;
       popup.appendChild(hashtagsText);
 
-      
-      // This is broken ffs, dunno how to fix
       // Copy button
       const copyButton = document.createElement('button');
       copyButton.classList.add('copy-button');
@@ -51,15 +49,25 @@ document.addEventListener('DOMContentLoaded', () => {
         navigator.clipboard.writeText(hashtags)
           .then(() => {
             console.log('Hashtags copied to clipboard');
+            copyButton.textContent = 'Copied!';
+            copyButton.classList.add('clicked');
+
+            setTimeout(() => {
+              copyButton.classList.remove('clicked');
+              copyButton.textContent = 'Copy Hashtags';
+            }, 3000);
           })
           .catch((error) => {
             console.error('Failed to copy hashtags:', error);
           });
       });
-      
+
       popup.appendChild(copyButton);
       copyButton.style.visibility = 'visible';
+      
 
+
+      // Everything else
       document.body.appendChild(popup);
       document.body.classList.add('blur');
 

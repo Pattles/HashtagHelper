@@ -3,10 +3,16 @@ body {
     background-color: #48ddc8;
 }
 
-h1, h2, p {
+h1, h2, h3 {
     text-align: center;
     color: white;
     margin-top: 50px;
+}
+
+p {
+    text-align: left;
+    color: white;
+    margin: 0 29%;
 }
 
 form {
