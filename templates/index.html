@@ -6,7 +6,10 @@
         <link rel="icon" type="image/x-icon" href="static/images/favicon.png">
         <link rel="stylesheet" href="static/style.css">
         <link rel="stylesheet" href="static/hyperlinks.css">
+        <link rel="stylesheet" href="static/popup.css">
         <script src="static/popup.js"></script>
+        <!-- <script src="static/dropdown.js"></script> --> 
+        <!-- Have the dropdown code be in dropdown.js, not in the HTML itself, for better readability later. -->
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3BVGehNIwyoFXC_mYgrOnntTbtMuzp20&libraries=places"></script>
         <script>
             function initAutocomplete() {
@@ -47,78 +50,32 @@
             <br><br>
 
             <input type="submit" value="Generate Hashtags">
-            <br><br><br>
+            <h3>Information</h3>
             <p>
+                HashtagHelper is a #hashtag service that generates the best hashtags out there for your social media posts. <br><br>
                 For questions, support, or feedback, email us at <a href="mailto:info.socialtechllc@gmail.com" target="_blank">info.socialtechllc@gmail.com</a>
             </p>
-            <br><br>
+            <br><br><br><br><br><br>
         </form>
     </div>
-    <div id="popup"></div>
+    <div id="popup">
+        <span class="close-btn">x</span>
+        <div class="hashtags-box"></div>
+        <button class="copy-button">Copy Hashtags</button>
+    </div>
+    <!-- <div id="dropdown"></div> -->
     <script> 
-        let inp = document.getElementById("industry")
-        let arr = [
-        "Accounting",
-        "Airbnb",
-        "Art",
-        "Book Store",
-        "Breeding",
-        "Car Rentals",
-        "Car Repairs",
-        "Casino",
-        "Chiropractor",
-        "Church",
-        "Civil Engineering",
-        "Computer Repairs",
-        "Concert",
-        "Dentistry",
-        "Dining",
-        "Education",
-        "Electrical Engineering",
-        "Equipment Rental",
-        "Farm Stand",
-        "Fashion",
-        "Fast Food",
-        "Financial Advising",
-        "Fishing",
-        "Garden Center",
-        "Healthcare",
-        "Historical Site",
-        "Investor",
-        "Landscaping",
-        "Masonry",
-        "Manufacturing",
-        "Marketing Agency",
-        "Mechanical Engineering",
-        "News",
-        "Office Support Services",
-        "Painting",
-        "Phone Repairs",
-        "Plumbing",
-        "Printing",
-        "Radio",
-        "Real Estate",
-        "Resort",
-        "Roofing",
-        "Sanitation",
-        "Self Storage",
-        "Sporting Event",
-        "Steak House",
-        "Towing",
-        "Warehousing",
-        "Pastry Shop",
-        "Bakery",
-        "Pizzeria",
-        "Fine Dining",
-        "Cafe",
-        "Coffee Shop",
-        "Brewery",
-        "Ice Cream Shop",
-        "Health food",
-        "Mexican Cuisine",
-        "Chinese Cuisine",
-        "Japanese Cuisine"
-        ]
+        let inp = document.getElementById("industry");
+
+        // Gets a list of all Industries from hashtags.json
+        // See get_hashtags() in app.py for more info
+        fetch('/hashtags')
+            .then(response => response.json())
+            .then(data => {
+                let arr = data; // Array of hashtags assigned to 'arr'
+                autocomplete(inp, arr); // Call the autocomplete function with 'arr'
+            })
+            .catch(error => console.log(error));
 
         function autocomplete(inp, arr) {
             
@@ -170,7 +127,7 @@
                 } else if (e.keyCode == 38) { 
                     
                     currentFocus--;
-                   
+                
                     addActive(x);
                 } else if (e.keyCode == 13) {
                     
@@ -182,9 +139,9 @@
                 }
             });
             function addActive(x) {
-               
+            
                 if (!x) return false;
-               
+            
                 removeActive(x);
                 if (currentFocus >= x.length) currentFocus = 0;
                 if (currentFocus < 0) currentFocus = (x.length - 1);
@@ -211,6 +168,7 @@
                 closeAllLists(e.target);
             });
         }
+    
         autocomplete(inp,arr)
     </script>
 </body>

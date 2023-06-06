@@ -3,10 +3,16 @@ body {
     background-color: #48ddc8;
 }
 
-h1, h2, p {
+h1, h2, h3 {
     text-align: center;
     color: white;
     margin-top: 50px;
+}
+
+p {
+    text-align: left;
+    color: white;
+    margin: 0 29%;
 }
 
 form {
@@ -44,8 +50,7 @@ input[type='submit'] {
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
 
 input[type='submit']:hover {
@@ -64,22 +69,6 @@ label, input, textarea {
     width: 50%;
     max-width: 600px;
     min-width: 600px;
-}
-
-.popup {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    font-size: 24px;
-    padding: 20px;
-    z-index: 9999;
 }
 
 select {
