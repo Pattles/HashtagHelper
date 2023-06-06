@@ -3,3 +3,4 @@ flask-wtf
 python-dotenv
 requests
 flashtext
+discord
