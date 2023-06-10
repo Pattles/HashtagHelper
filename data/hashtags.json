@@ -13,6 +13,42 @@
         "#taxaccounting": 3439,
         "#accountingdept": 3284
     },
+    "Acting Classes":{
+        "#acting": 77772550,
+        "#iloveacting": 22790,
+        "#actingteacher": 21026,
+        "#screenacting": 18783,
+        "#filmacting": 18708,
+        "#actingcareer": 18029,
+        "#actingclass": 206009
+    },
+    "Acting Coaching":{
+        "#acting": 77772550,
+        "#iloveacting": 22790,
+        "#actingteacher": 21026,
+        "#screenacting": 18783,
+        "#filmacting": 18708,
+        "#actingcareer": 18029,
+        "#actingclass":206009
+    },
+    "Acupuncture":{
+        "#acupuncture": 1275720,
+        "#fiveelementacupuncture": 3572,
+        "#yegacupuncture": 3531,
+        "#acupunctureforpain": 3409,
+        "#acupunctureneedles": 3358,
+        "#facialrejuvenationacupuncture": 3154,
+        "#neurofunctionalacupuncture": 2897
+    },
+    "Advertising":{
+        "#ad": 439446762,
+        "#advert": 9985852,
+        "#advertising": 9985852,
+        "#advertisingagency": 717064,
+        "#digitaladvertisin ":201199,
+        "#socialmedia": 18367183,
+        "#marketing": 40231639
+    },
     "Airbnb":{
         "#airbnbmanagement": 14228,
         "#airbnb": 4708969,
@@ -21,10 +57,59 @@
         "#airbnbpartner": 11999,
         "#airbnbsuperhosts": 11982
     },
+    "Animation and Visual Effects":{
+        "#animation": 12097900,
+        "#shortanimation": 37703,
+        "#animationmovie": 37534,
+        "#imageanimation": 32311,
+        "#photoanimation": 30938,
+        "#vfx": 1308442,
+        "#vfxteam": 2170,
+        "#vfxeditor": 1922,
+        "#motionvfx": 1882,
+        "#vfxart": 1668,
+        "#vfxschool": 1545
+    },
+    "Archaeological Site":{
+        "#archeology":947130,
+        "#ancient":4170338,
+        "#art":637160380,
+        "#history":33100368
+        },
+    "Architecture":{
+        "#architecture":127633783,
+        "#contemporaryarchitecture":405734,
+        "#architecturemodel":393303,
+        "#architecture_lovers":340525,
+        "#architecturedetails":313598,
+        "#architecturegram":280966
+        },
     "Art":{
         "#modernart": 16258864,
         "#urbanart": 14492932,
         "#artists": 13966646
+    },
+    "Audio and Visual Equipment Rentals":{
+        "#rental":2193418,
+        "#equipmentrental":35807,
+        "#audiorental":5979
+        },
+    "Auditing":{
+        "#auditing":45625,
+        "#audits":14518,
+        "#safetyaudits":131,
+        "#auditsfi":110,
+        "#securityaudits":80,
+        "#chartaudits":38,
+        "#audit":1200991
+        },
+    "Bait and Tackle Shop":{
+        "#baitandtackle":18248,
+        "#fishing":31376289,
+        "#fishinglife":3398433,
+        "#bait":1387960,
+        "#rods":1498007,
+        "#fish":31918747
     },
     "Bakery":{
         "#bakeryhouse": 67501,
@@ -33,6 +118,45 @@
         "#healthybakery": 49460,
         "#bakeryrd": 49284
     },
+    "Baseball Game":{
+        "#game":35708838,
+        "#sports":36191481,
+        "#sportingevent":24964,
+        "#sportsgame":19032,
+        "#baseball":17447608,
+        "#baseballgame":607211
+        },
+    "Basketball Game":{
+        "#game":35708838,
+        "#sports":36191481,
+        "#sportingevent":24964,
+        "#sportsgame":19032,
+        "#basketball":28749826,
+        "#basketballgame":602360,
+        "#hoop":2704554
+        },
+    "Bingo Hall":{
+        "#bingo":2060428,
+        "#bingochallenge":12021,
+        "#bingoloco":11356,
+        "#alloutbingo":10974,
+        "#bingogame":9349
+        },
+    "Boat and RV Storage":{
+        "#storage":1735034,
+        "#selfstorage":126797,
+        "#storageunit":31488,
+        "#boats":7214846,
+        "#boatstorage":9280
+        },
+    "Book Distributor":{
+        "#books":43388157,
+        "#textbooks":490310,
+        "#sketchbooks":474631,
+        "#vintagebooks":473669,
+        "#bookstoread":406348,
+        "#booksigning":400068
+        },
     "Book Store":{
         "#scrapbook": 2844657,
         "#comicbook": 2789484,
@@ -43,6 +167,33 @@
         "#ebook": 2435436,
         "#childrensbooks": 2366136
     },
+    "Boxing Match":{
+        "#game":35708838,
+        "#sports":36191481,
+        "#sportingevent":24964,
+        "#sportsgame":19032,
+        "#boxing":23241901,
+        "#titleboxing":173325,
+        "#boxinglifestyle":164690,
+        "#boxingclass":164052,
+        "#amateurboxing":144991,
+        "#boxingjunky":141273,
+        "#boxingtrainer":139522,
+        "#boxingdrills":138963
+    },
+    "Branding":{
+        "#branding":20940438,
+        "#brand":27354788,
+        "#brandingagency":421325,
+        "#brandingdesign":1281887,
+        "#marketing":40231639
+        },
+    "Breaking News":{
+        "#news":27690775,
+        "#magazine":18544845,
+        "#journal":5633289,
+        "#breakingnews":1592500
+        },
     "Breeding":{
         "#breedingstock": 5501,
         "#responsiblebreeding": 5078,
@@ -60,6 +211,23 @@
         "#localbeer": 687489,
         "#beeroclock": 680836
     },
+    "Burger King Franchise":{
+        "#food":387276792,
+        "#fastfood":4575487,
+        "#delicious":109745418,
+        "#burger":16622371,
+        "#burgerking":1800216,
+        "#whopper":136838,
+        "#meal":11710928
+        },
+    "Business News":{
+        "#news":27690775,
+        "#magazine":18544845,
+        "#journal":5633289,
+        "#businessnews":121245,
+        "#business":63374819,
+        "#stocks":3625892
+        },
     "Cafe":{
         "#coffeeislife": 1200365,
         "#lovecoffee": 1149580,
@@ -80,10 +248,98 @@
     "Car Repairs":{
         "#carrepair":1
     },
+    "Catholic Church":{
+        "#church":30547959,
+        "#catholic":4767802,
+        "#catholicsofinstagram":35757,
+        "#catholicmusic":34028,
+        "#catholicgifts":31510,
+        "#catholiccharities":29557,
+        "#catholicmass":26217
+        },
     "Casino":{
         "#casinofun": 44029,
         "#casinoroyal": 27656
     },
+    "Ceramic Art":{
+        "#ceramicart":1457975,
+        "#jamceramicart":343,
+        "#ceramicartederuta":300,
+        "#centreofceramicart":282,
+        "#ceramicarttile":279,
+        "#ceramicartes":236
+    },
+    "Ceramic Design":{
+        "#ceramicdesign":241184
+        },
+    "Ceramic Restoration":{
+        "#ceramicrestoration":1694,
+        "#ceramics":10495664,
+        "#handpaintedceramics":21145,
+        "#figurativeceramics":17991,
+        "#ceramicsculptures":16905,
+        "#sculpturalceramics":16424
+        },
+    "Ceramic Supplies and Equipment Sales":{
+        "#ceramicsupplies":520,
+        "#ceramics":10495664,
+        "#handpaintedceramics":21145,
+        "#ceramicsculptures":16905,
+        "#sculpturalceramics":16424,
+        "#hiveceramics":16319,
+        "#ceramic":10495664,
+        "#handbuiltceramics":110526,
+        "#ceramiccoatings":95772,
+        "#ceramictile":93855,
+        "#functionalceramics":88657,
+        "#ceramicprolifestyle":86773,
+        "#studioceramics":78802,
+        "#ceramicsmagazine":77420,
+        "#ceramicarts":76995
+        },
+    "Ceramic Workshops and Classes":{
+        "#ceramicworkshop":28655,
+        "#ceramics":10495664,
+        "#handpaintedceramics":21145,
+        "#figurativeceramics":17991,
+        "#womeninceramics":17212,
+        "#ceramicsculptures":16905,
+        "#sculpturalceramics":16424,
+        "#hiveceramics":16319
+        },
+    "Ceramics":{
+        "#ceramics":10495664,
+        "#handpaintedceramics":21145,
+        "#figurativeceramics":17991,
+        "#ceramicsculptures":16905,
+        "#sculpturalceramics":16424,
+        "#ceramic":10495664,
+        "#handbuiltceramics":110526,
+        "#ceramiccoatings":95772,
+        "#ceramictile":93855,
+        "#functionalceramics":88657,
+        "#ceramicprolifestyle":86773,
+        "#studioceramics":78802,
+        "#ceramicsmagazine":77420,
+        "#ceramicarts":76995
+        },
+    "Charter Services":{
+        "#charter":575051,
+        "#yacht":5535157,
+        "#yachtlife":2275010,
+        "#fishingcharter":176551,
+        "#offshorefishingcharter":2566,
+        "#fishing":31376289
+        },
+    "Chick-fil-A Franchise":{
+        "#food":387276792,
+        "#fastfood":4575487,
+        "#delicious":109745418,
+        "#friedchicken":2774858,
+        "#chicken":25008923,
+        "#chickfila":1115803,
+        "#meal":11710928
+        },
     "Chinese Cuisine":{
         "#loveforchinesefood": 2865,
         "#yummychinesefood": 2514,
@@ -100,6 +356,26 @@
         "#churchesofinstagram": 150877,
         "#mychurch": 140397
     },
+    "Circus Arts and Acrobatics":{
+        "#circus":6019414,
+        "#circustheme":51999,
+        "#musiccircus":51668,
+        "#circusshow":51211,
+        "#catcircus":48645,
+        "#thenightcircus":46604,
+        "#thecircus":46038,
+        "#circusart":43561,
+        "#acrobatics":2193263,
+        "#arialacrobatics":1137,
+        "#danceacrobatics":1124,
+        "#flooracrobatics":1113,
+        "#loveacrobatics":1084,
+        "#acrobatics_photos":1077,
+        "#coupleacrobatics":1016,
+        "#silkacrobatics": 968,
+        "#onlyacrobatics": 956,
+        "#acrobaticskills": 926
+        },
     "Civil Engineering":{
         "#civilengineering": 65204,
         "#civilwork": 62113
@@ -116,17 +392,97 @@
         "#coffeegeek": 954144,
         "#coffeebar": 938344
     },
+    "Commercial Architecture":{
+        "#commercialarchitecture":27665
+        },
+
+    "Commercial Roofing":{
+        "#commercialroofing":41167,
+        "#roofing":972339,
+        "#roof":9019059
+        },
     "Computer Repairs":{
         "#personalcomputer": 23904,
         "#newcomputer": 23644,
         "#computertech": 22992,
         "#computerlab": 22822,
-        "#computerproblems": 22185
+        "#computerproblems": 22185,
+        "#computer":4442677,
+        "#pc":22683697,
+        "#pcrepair":31497,
+        "#computerrepair":111241
     },
     "Concert":{
         "#summerconcert": 112688,
         "#concertnight": 109138
     },
+    "Concert Security":{
+        "#security":3395845,
+        "#securityguards":29811
+        },
+    "Construction Equipment Rentals":{
+        "#rental":2193418,
+        "#equipmentrental":35807,
+        "#construction":12278135
+        },
+    "Construction Management":{
+        "#construction":12278135,
+        "#contructionmanagement":179402
+        },
+    "Content Marketing":{
+        "#contentmarketing":3133781,
+        "#marketing":40231639,
+        "#blog":117128159,
+        "#videomarketing":604202,
+        "#seo":19710576,
+        "#content":4659319
+        },
+    "Crochet":{
+        "#crochet":26706322,
+        "#crochet_relax":344063,
+        "#crochetgeek":331538,
+        "#crochetaddicted":271228,
+        "#crochettop":267326,
+        "#crocheters":258544,
+        "#crochetstyles":254974
+        },
+    "Cryptocurrency Investor":{
+        "#crypto":7269794,
+        "#trading":7092362,
+        "#investing":6062373,
+        "#invest":10978991,
+        "#cryptocurrency":7269794,
+        "#eth":39965241,
+        "#ethereum":3238215,
+        "#btc":4893725,
+        "#bitcoin":13073975
+        },
+    "Dance Performance and Instruction":{
+        "#dance":101009035,
+        "#dancephotography":1456704,
+        "#dancevideo":1437746,
+        "#lovedance":1412755,
+        "#dancestudio":1357679,
+        "#justdance":1254546,
+        "#streetdance":1251214
+        },
+    "Data Entry":{
+        "#data":1516114,
+        "#dataentry":30980,
+        "#excel":5983523,
+        "#google":8142042,
+        "#entry":3034299,
+        "#datacollection":36044
+        },
+    "Daycare":{
+        "#daycare":1891071,
+        "#daycarerocks":17071,
+        "#doggiedaycarefun":16711,
+        "#dogdaycarefun":16123,
+        "#doggydaycarelife":16042,
+        "#dogsofdaycare":15480,
+        "#daycares":14164
+        },
     "Dentistry":{
         "#dentistoffice": 90101,
         "#instadentist": 88458,
@@ -137,6 +493,40 @@
         "#generaldentistry": 62350,
         "#dentistvisit": 57483
     },
+    "Detailing":{
+        "#detailing":6423469,
+        "#detailingkingdom":42610,
+        "#detailingsupplies":42558,
+        "#autodetailingworld":33627,
+        "#detailingmotor":30153,
+        "#detailingcentral":28309,
+        "#autodetailing":2231355,
+        "#cardetailing":1513281,
+        "#cardetailingpro":1223,
+        "#interiorcardetailing":1214,
+        "#cardetailinglovers":1088,
+        "#cardetailingmobile":       932,
+        "#cardetailingservice":      866,
+        "#newcardetailing":      794
+        },
+    "Digital Marketing":{
+        "#digitalmarketing":11123279,
+        "#marketing":40231639,
+        "#seo":19710576,
+        "#content":4659319,
+        "#sem":16972732,
+        "#ppc":505531,
+        "#influencer":22004387,
+        "#influencermarketing":1014685,
+        "#emailmarketing":868907,
+        "#ctr":23987391
+        },
+    "Digital Printing":{
+        "#digitalprinting":730039,
+        "#printing":4203694,
+        "#ecofriendly":8714988,
+        "#print":13841249
+        },
     "Diner":{
         "#dining": 3853349,
         "#diningexperience": 53773,
@@ -150,20 +540,129 @@
         "#instafoodie": 6956649,
         "#foodoftheday": 6744279
     },
+    "Dog breeding":{
+        "#dog":260909012,
+        "#lovemydog":8147766,
+        "#dogphotography":7312376,
+        "#doggie":6965729,
+        "#dogscorner":6095580,
+        "#ilovedogs":5955398,
+        "#dogbreeder":73579,
+        "#dogbreeding":16387
+        },
+    "Domino's Pizza Franchise":{
+        "#food":387276792,
+        "#fastfood":4575487,
+        "#delicious":109745418,
+        "#pizza":45970975,
+        "#dominos":1121526,
+        "#meal":11710928
+        },
+    "Dumpster Rental":{
+        "#dumpster":113318,
+        "#waste":5264652,
+        "#wastemanagement":166586,
+        "#trash":4050841,
+        "#ecofriendly":8714988
+        },
+    "Dunkin' Donuts Franchise":{
+        "#food":387276792,
+        "#fastfood":4575487,
+        "#delicious":109745418,
+        "#dunkindonuts":1814884,
+        "#dunkin":1814884,
+        "#donuts":7953452,
+        "#coffee":124399158,
+        "#meal":11710928
+        },
+    "Editorial Photography":{
+        "#editorialphotography":2276239,
+        "#editorialphoto":2276239,
+        "#bridaleditorialphotoshoot":356,
+        "#editorialphotografy":262,
+        "#editorialphotohrapher":258,
+        "#editorialphotoshooting":255,
+        "#editorialphotographyl":233,
+        "#editorialphotographer":248812
+        },
     "Education":{
         "#educationispower": 134731,
         "#healtheducation": 111082,
         "#earlyyearseducation": 103079
     },
+    "Educational Architecture":{
+        "#educationalarchitecture":4976
+        },
     "Electrical Engineering":{
         "#electricalrepair": 79557,
         "#electricalservice": 7909
     },
+    "Email Marketing":{
+        "#eventmarketing":266269,
+        "#marketing":40231639,
+        "#emailmarketing":868907,
+        "#ctr":23987391
+        },
+    "Embroidery":{
+        "#embroidery":13381714,
+        "#hoopembroidery":61435,
+        "#ribbonembroidery":60014,
+        "#lunevilleembroidery":58591,
+        "#embroiderykit":51561,
+        "#flowerembroidery":49144,
+        "#embroiderybag":48491,
+        "#embroiderymagazine":47280
+        },
+    "Entertainment News":{
+        "#news":27690775,
+        "#magazine":18544845,
+        "#journal":5633289,
+        "#entertainmentnews":509217,
+        "#entertainment":14266351,
+        "#drama":10564998,
+        "#showbiz":723251,
+        "#celebrity":14428049,
+        "#celebritynews":763983,
+        "#gossip":2054526,
+        "#redcarpet":6379237,
+        "#scandal":1264540
+        },
     "Equipment Rental":{
         "#equipmentrental": 35807,
         "#pilatesequipment": 33323,
-        "#earthmovingequipment": 29899
+        "#earthmovingequipment": 29899,
+        "#equipment":1235903,
+        "#rental":2193418
     },
+    "Evangelical Church":{
+        "#church":30547959,
+        "#evangelical":70671
+        },
+    "Event Photography":{
+        "#eventphotography":1384825,
+        "#maineventphotography":602,
+        "#eventphotographysg":544,
+        "#nyeventphotography":517,
+        "#dubaieventphotography":500,
+        "#laeventphotography":470,
+        "#smalleventphotography":425,
+        "#apkeventphotography":411,
+        "#socaleventphotography":399,
+        "#documentaryeventphotography":395,
+        "#socialeventphotography":395
+        },
+    "Event Planning":{
+        "#eventplanning":3102290,
+        "#event":25317436,
+        "#planner":13458557,
+        "#eventplanner":8270432
+        },
+    "Exterior Painting":{
+        "#painting":97762253,
+        "#exteriorpainting":153245,
+        "#wallpainting":1083972,
+        "#exterior":3066317
+        },
     "Farm Stand":{
         "#farmtofork": 390693,
         "#farmhouseliving": 356858,
@@ -193,6 +692,47 @@
         "#instafood": 169891658,
         "#yummy": 15344390
     },
+    "Faux Finishes":{
+        "#faux":2034253,
+        "#fauxfinish":70340
+        },
+    "Film and Video Production Equipment Rentals":{
+        "#rental":2193418,
+        "#equipmentrental":35807,
+        "#camerarental":25476
+        },
+    "Film Editing and Post-Production Services":{
+        "#editing":6117380,
+        "#videoediting":732900,
+        "#videoedit":2825236,
+        "#edit":36081977
+        },
+    "Film Equipment Rental and Sales":{
+        "#rental":2193418,
+        "#filmrental":2696
+        },
+    "Film-making":{
+        "#film":57677596,
+        "#filmfestival":1835618,
+        "#analogfilm":1797179,
+        "#filmwave":1693156,
+        "#filmmakers":1613984,
+        "#filmes":1434873,
+        "#filmproduction":1356569,
+        "#filmmaking":8352229,
+        "#filmmakingtools":3231,
+        "#filmmakingislife":3037,
+        "#lovefilmmaking":2807,
+        "#filmmakingschool":2805,
+        "#filmmakingallday":2584,
+        "#filmmakingcourse":2584
+        },
+    "Financial Accounting":{
+        "#accountingservice":4426,
+        "#softwareaccounting":3959,
+        "#taxaccounting":3439,
+        "#accountingdept":3284
+        },
     "Financial Advising":{
         "#financialsupport": 40215,
         "#financialplan": 38339,
@@ -204,12 +744,39 @@
         "#financiallyfit": 32050,
         "#financialtechnologi": 31792
     },
+    "Fine Art Photography":{
+        "#fineartphotography":5552259,
+        "#contemporaryfineartphotography":469,
+        "#22over7fineartphotography":444,
+        "#fineartphotographymagazine":439,
+        "#fineartphotographycolor":406,
+        "#fineartphotographyprint":387,
+        "#fineartphoto":5552259,
+        "#childrensfineartphotography":1976,
+        "#blackandwhitefineartphotography":1874,
+        "#fineartphotoschool":1785,
+        "#childrenfineartphoto":1760,
+        "#fineartphotographyawards":1686,
+        "#fineartphotographer":554183,
+        "#childfineartphotographer":179
+        },
     "Fine Dining":{
         "#finefood": 371917,
         "#diningexperience": 53773,
         "#waterfrontdining": 53042,
         "#diningarea": 51736
     },
+    "Fireplace Installation":{
+        "#fireplace":3953634,
+        "#interiordecor":8955165,
+        "#decor":65016232,
+        "#chimney":509810
+        },
+    "Fish breeding":{
+        "#fish":31918747,
+        "#fishes":853753,
+        "#fishbreeding":20111
+        },
     "Fishing":{
         "#offshorefishing": 445625,
         "#deepseafishing": 424286,
@@ -218,6 +785,51 @@
         "#instafishing": 389231,
         "#salmonfishing": 334448
     },
+    "Fishing Tournaments and Events":{
+        "#fishingtournament":95401,
+        "#fish":31918747,
+        "#fishing":31376289,
+        "#fishinglife":3398433
+        },
+    "Five Guys Franchise":{
+        "#food":387276792,
+        "#fastfood":4575487,
+        "#delicious":109745418,
+        "#meal":11710928,
+        "#fiveguys":604248,
+        "#burger":16622371,
+        "#milkshakes":768734
+        },
+    "Flatbed Towing":{
+        "#flatbed":264276,
+        "#towing":432660,
+        "#heavyduty":374110
+        },
+    "Football Game":{
+        "#game":35708838,
+        "#sports":36191481,
+        "#sportingevent":24964,
+        "#sportsgame":19032,
+        "#football":67457305,
+        "#footballgame":2422839
+        },
+    "Forex Trader":{
+        "#trading":7092362,
+        "#forex":11665196,
+        "#forexclass":90894,
+        "#forexprofits":89434,
+        "#forexinvestment":86288,
+        "#learnforex":85422,
+        "#forextips":85249,
+        "#forexdaily":80380,
+        "#forexchart":73959,
+        "#forextradingsignals":69968,
+        "#investing":6062373,
+        "#invest":10978991
+        },
+    "Functional Ceramics":{
+        "#functionalceramics":88657
+        },
     "Garden Center":{
         "#favv_flowers": 1009332,
         "#bestflowerspics": 1002405,
@@ -230,6 +842,51 @@
         "#kitchengarden": 735308,
         "#gardensofinstagram": 692565
     },
+    "Garden Supplies":{
+        "#garden":53234628,
+        "#backyardgarden":824105,
+        "#garden_explorers":776708,
+        "#macrogardener":765818,
+        "#kitchengarden":735308,
+        "#garden_styles":628279,
+        "#supplies":795976
+        },
+    "General Auto Repair Services":{
+        "#autorepair":403785,
+        "#bestautorepairshop":       424,
+        "#autorepairtips":       424,
+        "#autorepairexperts":       370
+        },
+    "General Chiropractor":{
+        "#chiropractor":1114990
+        },
+    "Golf Resort":{
+        "#golf":22510613,
+        "#resort":7335651,
+        "#golfresort":70021,
+        "#green":114762916,
+        "#putt":379029,
+        "#club":21097915
+        },
+    "Golf Tournament":{
+        "#game":35708838,
+        "#sports":36191481,
+        "#sportingevent":24964,
+        "#sportsgame":19032,
+        "#golf":22510613,
+        "#golftournament":344330,
+        "#tournament":2444961
+        },
+    "Greek Cuisine":{
+        "#greekfood":1267662,
+        "#greekcuisine":172434,
+        "#greekfoodiee":       967,
+        "#eatgreekfood":      820,
+        "#eonsgreekfoodforlife":      737,
+        "#greekfoodrocks":      732,
+        "#greekfoodisthebestfood":       620,
+        "#healthygreekfood":       618
+        },
     "Healthcare":{
         "#healthcareheros": 16256,
         "#healthcaretips": 15054,
@@ -239,6 +896,9 @@
         "#healthcareproviders": 123489,
         "#healthcare": 11002
     },
+    "Healthcare Architecture":{
+        "#healthcarearchitecture":6046
+        },
     "Health Food":{
         "#healthfoodlover": 1325,
         "#healthfoodrestaurant": 1243,
@@ -249,6 +909,20 @@
         "#healthfoodlab": 1045,
         "#healthfoodspa": 1019
     },
+    "Health News":{
+        "#news":27690775,
+        "#magazine":18544845,
+        "#journal":5633289,
+        "#health":156595371,
+        "#mentalhealth":17647462
+        },
+    "Heritage Trail":{
+        "#heritage":6965952,
+        "#heritagetrail":22433,
+        "#trail":10676456,
+        "#art":637160380,
+        "#history":33100368
+        },
     "Historical Site":{
         "#historicalhomes": 23750,
         "#historicalpark": 20726,
@@ -260,6 +934,37 @@
         "#historicalphotography": 14381,
         "#historicalchurch": 14238
     },
+    "Hockey Game":{
+        "#game":35708838,
+        "#sports":36191481,
+        "#sportingevent":24964,
+        "#sportsgame":19032,
+        "#hockey":11089491,
+        "#hockeygoalie":117685,
+        "#hockeylifestyle":116299,
+        "#lovehockey":112395
+        },
+    "Horse breeding":{
+        "#horse":31381937,
+        "#horsebreeder":10884,
+        "#lovehorses":699552,
+        "#horsejumping":687366,
+        "#horseback":672981,
+        "#painthorse":635586,
+        "#whitehorse":558370
+        },
+    "Hydroponics":{
+        "#hydroponics":714570,
+        "#garden":53234628,
+        "#flowers":182230356,
+        "#favv_flowers":1009332,
+        "#bestflowerspics":1002405,
+        "#yellowflowers":902552,
+        "#flowers_super_pics":848359,
+        "#flowersoftheday":840752,
+        "#flowersmakemehappy":746635,
+        "#captures_flowers":714177
+        },
     "Investing":{
         "#investorsclub": 15582,
         "#investorspecial": 14254,
@@ -280,6 +985,34 @@
         "#icecreamday": 101815,
         "#icecreamparty": 101709
     },
+    "Indian Cuisine":{
+        "#indiancuisine":804352
+        },
+    "Industrial Architecture":{
+        "#industrialarchitecture":76586
+        },
+    "Influencer Marketing":{
+        "#marketing":40231639,
+        "#seo":19710576,
+        "#content":4659319,
+        "#sem":16972732,
+        "#influencer":22004387,
+        "#influencermarketing":1014685,
+        "#ctr":23987391,
+        "#contentcreation":754831
+        },
+    "Interior Architecture":{
+        "#interiorarchitecture":2164932,
+        "#wishinteriorarchitecture":5,
+        "#interiorarchitecturedesigners":5,
+        "#beautifulinteriorarchitecture":4
+        },
+    "Interior Painting":{
+        "#painting":97762253,
+        "#interior":91817913,
+        "#interiorpainting":210173,
+        "#wallpainting":1083972
+        },
     "Japanese Cuisine":{
         "#japanesenoodle": 209050,
         "#japanesefoodstreet": 2516,
@@ -288,6 +1021,41 @@
         "#japanesefoodpic": 2136,
         "#yummyjapanesefood": 2122
     },
+    "KFC Franchise":{
+        "#food":387276792,
+        "#fastfood":4575487,
+        "#delicious":109745418,
+        "#kfc":3477724,
+        "#kfcdelivery":11044,
+        "#dundalkfc":9609,
+        "#kfcfootball":8961,
+        "#kkfc":8632,
+        "#kfcsogood":7702,
+        "#friedchicken":2774858,
+        "#chicken":25008923,
+        "#meal":11710928
+        },
+    "Knitting":{
+        "#knitting":16294318,
+        "#knittingmachine":109090,
+        "#knittinghat":102420,
+        "#knittingdoll":97631,
+        "#knittingforbaby":97380,
+        "#laceknitting":86304,
+        "#loomknitting":85231,
+        "#knittingtoys":80293,
+        "#alwaysknitting":79984,
+        "#knittingfriends":79387
+        },
+    "Korean Cuisine":{
+        "#koreancuisine":204669,
+        "#koreanfood":6465540,
+        "#bestkoreanfood":3074,
+        "#koreanfoodcraving":2913,
+        "#asmrkoreanfood":2720,
+        "#sgkoreanfood":2296,
+        "#welovekoreanfood":2250
+        },
     "Landscaping":{
         "#backyardlandscaping": 4206,
         "#greenlawn": 33550,
@@ -300,6 +1068,46 @@
         "#softlandscaping": 3896,
         "#thelawn": 27714
     },
+    "Landscape Architecture":{
+        "#landscapearchitecture":1123271,
+        "#contemporarylandscapearchitecture":54
+        },
+    "Lawn Equipment Rentals / Garden Equipment Rentals":{
+        "#rental":2193418,
+        "#equipmentrental":35807
+        },
+    "Letterpress Printing":{
+        "#printing":4203694,
+        "#letterpress":970295,
+        "#letterpressprinting":79401,
+        "#print":13841249
+        },
+    "Livestock breeding":{
+        "#livestock":399791,
+        "#livestockgaurdiandog":1487,
+        "#livestockfeed":1422,
+        "#heritagelivestock":1356,
+        "#livestockproduction":1165,
+        "#livestockprotectiondog":1110,
+        "#livestockdog":1098
+        },
+    "Long-term Car Rentals":{
+        "#car":68954747,
+        "#cars":54362247,
+        "#carsforsale":1064216,
+        "#usedcars":890833,
+        "#carsdaily":886854,
+        "#carsovereverything":873557,
+        "#dreamcars":860352,
+        "#carrental":431109,
+        "#longterm":200979
+        },
+    "Magic and Illusion":{
+        "#magic":32391485,
+        "#magicmoment":447697,
+        "#moodmagic":431952,
+        "#crystalmagic":427385
+        },
     "Manufacturing":{
         "#smartmanufacturing": 4701,
         "#fashionmanufacturing": 4050,
@@ -307,6 +1115,12 @@
         "#usamanufacturing": 3712,
         "#remanufacturing": 3391
     },
+    "Marathon":{
+        "#game":35708838,
+        "#sports":36191481,
+        "#sportingevent":24964,
+        "#sportsgame":19032
+        },
     "Marketing Agency":{
         "#marketingplan": 402808,
         "#webmarketing": 398636,
@@ -326,6 +1140,17 @@
         "#stonemasonryart": 660,
         "#masonrycleaning": 659
     },
+    "McDonald's Franchise":{
+        "#mcdonalds":7511652,
+        "#bigmac":454313,
+        "#fries":5741611,
+        "#nuggets":955090,
+        "#food":387276792,
+        "#fastfood":4575487,
+        "#delicious":109745418,
+        "#burger":16622371,
+        "#meal":11710928
+        },
     "Mechanical Engineering":{
         "#mechanicalcontractor": 1099510,
         "#mechanical_engineer": 9914
@@ -342,6 +1167,100 @@
         "#mexicanfoodrecipes": 2097,
         "#lovemesomemexicanfood": 2094
     },
+    "Middle Eastern Cuisine":{
+        "#middleeasternfood":335365,
+        "#middleeasterncuisine":50840,
+        "#arabfood":92841,
+        "#arabicfood":347032
+        },
+    "Monument":{
+        "#monument":4389623,
+        "#art":637160380,
+        "#history":33100368
+        },
+    "Mountain Resort":{
+        "#resort":7335651,
+        "#vacation":117463109,
+        "#mountainresort":42092,
+        "#mountain":74468765,
+        "#ski":53738042,
+        "#skiing":9777689,
+        "#snow":91777092
+        },
+    "Museum":{
+        "#museum":19477816,
+        "#designmuseum":146995,
+        "#museumofnaturalhistory":138033,
+        "#artsciencemuseum":133500,
+        "#fieldmuseum":117257,
+        "#newmuseum":112492,
+        "#art":637160380,
+        "#history":33100368
+        },
+    "Music Events":{
+        "#musicfestival":4778646,
+        "#ultramusicfestival2016":15199,
+        "#summermusicfestival":14947,
+        "#worldmusicfestival":12654,
+        "#music":312013927
+    },
+    "Music Festivals":{
+        "#musicfestival":4778646,
+        "#ultramusicfestival2016":15199,
+        "#summermusicfestival":14947,
+        "#worldmusicfestival":12654,
+        "#music":312013927
+        },
+    "Music Performance and Production":{
+        "#music":312013927,
+        "#dancemusic":3583858,
+        "#popmusic":3372976,
+        "#musiclovers":3240604,
+        "#musicismylife":3078343,
+        "#classicalmusic":2490208,
+        "#musicaltheatre":2171886,
+        "#worldmusic":2055426,
+        "#musicianlife":2014531,
+        "#livemusicphotography":1914782
+        },
+    "Music Video Production":{
+        "#musicvideo":15593474,
+        "#newmusicvideos":15003,
+        "#animatedmusicvideo":14428,
+        "#ishootmusicvideos":12775,
+        "#90smusicvideo":12517,
+        "#lovermusicvideo":12355,
+        "#musicvideoshooting":12116,
+        "#music":312013927,
+        "#dancemusic":3583858,
+        "#popmusic":3372976,
+        "#musiclovers":3240604,
+        "#musicismylife":3078343,
+        "#classicalmusic":2490208,
+        "#technomusic":2356879,
+        "#worldmusic":2055426,
+        "#musicianlife":2014531
+        },
+    "Nature Photography":{
+        "#naturephotography":106784076,
+        "#naturephotographylove":4872,
+        "#naturephotographya":4840,
+        "#blackandwhitenaturephotography":4630,
+        "#naturephotographyvibes":4236,
+        "#mothernaturephotography":3570,
+        "#naturephotographyhobbyist":3480,
+        "#naturephotographybeautiful":3456,
+        "#naturephotographer":1519238,
+        "#naturephotographer73":40,
+        "#naturephoto":106784076,
+        "#naturephotographylovers":13917,
+        "#naturephotohraphy":13530,
+        "#bestnaturephoto":13142,
+        "#naturephotousa":11903,
+        "#naturephotochallenge":11221,
+        "#topnaturephoto":10473,
+        "#naturephotogtaphy":10044
+        },
     "News":{
         "#nflnews": 607701,
         "#footballnews": 593887,
@@ -353,6 +1272,15 @@
         "#newshop": 464912,
         "#newstore": 445777
     },
+    "Nursery":{
+        "#nursery":4455637,
+        "#boynursery":40451,
+        "#genderneutralnursery":39678,
+        "#nurseryfurniture":39621,
+        "#nurseryrhyme":38011,
+        "#boysnursery":35157,
+        "#nurserymobile":33039
+        },
     "Office Support Services":{
         "#officegoals": 237816,
         "#officetime": 213228,
@@ -364,6 +1292,55 @@
         "#todaysoffice": 163326,
         "#officeoftheday": 157781
     },
+    "Offset Printing":{
+        "#offsetprinting":128512,
+        "#printing":4203694,
+        "#offset":1936128,
+        "#print":13841249
+        },
+        "Online Bookstore":{
+        "#books":43388157,
+        "#textbooks":490310,
+        "#sketchbooks":474631,
+        "#vintagebooks":473669,
+        "#bookstoread":406348,
+        "#bookstore":2861157,
+        "#bookstorelove":10105
+        },
+    "Online Casino":{
+        "#casino":5470870,
+        "#casinofun":44029,
+        "#agencasinoonline":39146,
+        "#onlinecasino":255485,
+        "#gambling":1398994,
+        "#poker":3931825,
+        "#onlinepoker":128698,
+        "#blackjack":1191419
+        },
+    "Online Learning Platform":{
+        "#onlinelearning":418309,
+        "#school":44150226,
+        "#college":20314135,
+        "#learning":13202003
+        },
+    "Orthodontics":{
+        "#dentist":7336956,
+        "#teethcleaning":185446,
+        "#teeth":6311458
+        },
+    "Orthodox Church":{
+        "#church":30547959,
+        "#orthodox":928762,
+        "#orthodoxsaints":6915,
+        "#orthodoxfaith":6445
+        },
+    "Outdoor Furniture":{
+        "#furniture":23581578,
+        "#outdoordecor":367741,
+        "#outdoor":55552488,
+        "#decor":65016232,
+        "#outdoorfurniture":542859
+        },
     "Painting":{
         "#artpainting": 521826,
         "#modernpainting": 488249,
@@ -375,6 +1352,14 @@
         "#acrylicpaintings": 370207,
         "#minipainting": 368443
     },
+    "Papa John’s Franchise":{
+        "#food":387276792,
+        "#fastfood":4575487,
+        "#delicious":109745418,
+        "#pizza":45970975,
+        "#papajohns":470477,
+        "#meal":11710928
+        },
     "Pastry Shop":{
         "#pastryclass": 54675,
         "#pastrycook": 54494,
@@ -383,9 +1368,80 @@
         "#danishpastry": 49675,
         "#chefpastry": 46729
     },
+    "Paving":{
+        "#paving":291219,
+        "#construction":12278135,
+        "#asphaltpaving":49728,
+        "#asphalt":519200,
+        "#driveway":405877
+        },
+    "Peer-to-peer Car Rentals":{
+        "#car":68954747,
+        "#cars":54362247,
+        "#carsforsale":1064216,
+        "#usedcars":890833,
+        "#carsdaily":886854,
+        "#carsovereverything":873557,
+        "#dreamcars":860352,
+        "#carrental":431109
+        },
+    "Performance Arts":{
+        "#performancearts":30658
+        },
+    "Performance Venues and Event Production":{
+        "#venue":2635330,
+        "#outdoorvenue":59085,
+        "#thevenue":55400,
+        "#venuehire":55277
+        },
+    "Pet Photography":{
+        "#petphotography":2595160,
+        "#jeanniefrancispetphotography":523,
+        "#fineartpetphotography":496,
+        "#happypawspetphotography":468,
+        "#ruffnstuffpetphotography":440,
+        "#petphotographer":343621,
+        "#petphoto":2595160,
+        "#professionalpetphotographer":3279,
+        "#petphotoofhteday":3124,
+        "#rockinpawspetphotos":2917,
+        "#petphotograpy":2610,
+        "#featureapetphoto":2433
+        },
     "Phone Repairs":{
         "#phonerepair":1
     },
+    "Photography":{
+        "#dogphotography":7312376,
+        "#instaphotography":6909905,
+        "#familyphotography":6865228,
+        "#babyphotography":5600002,
+        "#fineartphotography":5552259,
+        "#amateurphotography":5220704,
+        "#dronephotography":5214783,
+        "#concertphotography":5203333,
+        "#bookphotography":5069683,
+        "#photography":569172253,
+        "#photo":787341565
+        },
+    "Physical Therapy":{
+        "#physicaltherapy":2361284,
+        "#conciergephysicaltherapy":1779,
+        "#performancephysicaltherapy":1777,
+        "#outpatientphysicaltherapy":1770,
+        "#mobilephysicaltherapy":1658,
+        "#doctorsofphysicaltherapy":1645,
+        "#dancephysicaltherapy":1606,
+        "#cashbasedphysicaltherapy":1561
+        },
+    "Pizza Hut Franchise":{
+        "#food":387276792,
+        "#fastfood":4575487,
+        "#delicious":109745418,
+        "#pizza":45970975,
+        "#pizzahut":2023812,
+        "#meal":11710928
+        },
     "Pizzeria":{
         "#dailypizza": 316970,
         "#pizzaitaliana": 307232,
@@ -397,6 +1453,21 @@
         "#pizzapie": 185967,
         "#pizzaslice": 184715
     },
+    "Plant breeding":{
+        "#plant":31378131,
+        "#planter":780272,
+        "#plantgang":657160,
+        "#plantsarefriends":616046,
+        "#iloveplants":611688,
+        "#aquaticplants":274955,
+        "#greenplants":261770,
+        "#carnivorousplants":237889,
+        "#hangingplants":223130,
+        "#rareplants":198061,
+        "#succulentplants":187686,
+        "#homeplants":184569,
+        "#indoorplantsdecor":180230
+        },
     "Plumbing":{
         "#plumbingdesign": 5013,
         "#plumbingapprentice": 4573,
@@ -407,6 +1478,43 @@
         "#plumbinginstallations": 3485,
         "#plumbingcompanies": 3183
     },
+    "Podcast":{
+        "#podcast":11410328,
+        "#podcastseries":70309,
+        "#podcastcommunity":69913,
+        "#radio":15095828
+        },
+    "Poker Room":{
+        "#poker":3931825,
+        "#pokergame":80249,
+        "#pokerpro":79395,
+        "#pokergrind":77076,
+        "#pokerlive":73999,
+        "#partypoker":72805,
+        "#pokerroom":37417
+        },
+    "Political News":{
+        "#news":27690775,
+        "#magazine":18544845,
+        "#journal":5633289,
+        "#politics":6220785,
+        "#political":764703,
+        "#election":1731792,
+        "#scandal":1264540
+        },
+    "Portable Toilet Rental":{
+        "#portabletoilet":9347,
+        "#toilet":1714055,
+        "#restroom":307970,
+        "#clean":59667849
+        },
+    "Portrait Photography":{
+        "#photo":787341565,
+        "#portraitphotography":40941968,
+        "#photography":569172253,
+        "#portraitphoto":40941968,
+        "#portraitphotographer":5804396
+        },
     "Printing":{
         "#scarfprinting": 120365,
         "#tasprinting": 108808,
@@ -415,6 +1523,45 @@
         "#printingservices": 97141,
         "#largeformatprinting": 96122
     },
+    "Protestant Church":{
+        "#church":30547959,
+        "#protestantchurch":5631,
+        "#protestant":136217,
+        "#jesus":35129005,
+        "#bible":12139259
+        },
+    "Public Relations":{
+        "#pr":177396945,
+        "#publicrelations":1444994,
+        "#pragency":239484
+        },
+    "PR":{
+        "#pr":177396945,
+        "#publicrelations":1444994,
+        "#pragency":239484
+    },
+    "Public Scuplture":{
+        "#artwork":101986426,
+        "#streetart":53261524,
+        "#fineart":2175414,
+        "#sculpture":19013927,
+        "#modernart":16258864,
+        "#urbanart":14492932,
+        "#publicart":1951605,
+        "#gardensculpture":71959
+        },
+    "Quilting":{
+        "#quilting":1957275,
+        "#quiltingaddict":16690,
+        "#quiltingsupplies":16405,
+        "#quiltingtutorial":14973,
+        "#quiltingshop":14171,
+        "#quiltingservices":13084,
+        "#quiltinginspiration":10272,
+        "#quiltingfriends":9941,
+        "#straightlinequilting":8898,
+        "#freehandquilting":7905
+        },
     "Radio":{
         "#hiphopradio": 160612,
         "#liveradio": 147849,
@@ -436,6 +1583,25 @@
         "#realestateinvestor": 1971384,
         "#realtors": 1990964
     },
+    "Recycling Services":{
+        "#recycling":1899849,
+        "#recycle":6859317,
+        "#waste":5264652,
+        "#ecofriendly":8714988
+        },
+    "Residential Architecture":{
+        "#residentialarchitecture":220847
+        },
+    "Residential Plumbing":{
+        "#plumbing":1256151,
+        "#sink":6581643,
+        "#pipes":1005381
+        },
+    "Residential Roofing":{
+        "#roofing":972339,
+        "#roof":9019059,
+        "#residentialroofing":24323
+        },
     "Resort":{
         "#resort": 7335651,
         "#resortcollection": 73595,
@@ -443,6 +1609,9 @@
         "#vacation": 117463109,
         "#summer": 450939349
     },
+    "Restoration Architecture":{
+        "#restorationarchitecture":611
+        },
     "Roofing":{
         "#roofingspecialists": 5431,
         "#roofingsystems": 5287,
@@ -450,6 +1619,12 @@
         "#roofingsheets": 5047,
         "#roofingcrew": 5015
     },
+    "Rug Making":{
+        "#rugmaking":11047,
+        "#rugs":3727126,
+        "#luxuryrugs":41388,
+        "#rug":7807837
+        },
     "Sanitation":{
         "#sanitationmatters": 334,
         "#hygieneandsanitation": 311,
@@ -457,15 +1632,176 @@
         "#servicesanitation": 252,
         "#deptofsanitation": 250
     },
+    "Science News":{
+        "#news":27690775,
+        "#magazine":18544845,
+        "#journal":5633289,
+        "#science":13045577,
+        "#nature":515814461,
+        "#research":3654533,
+        "#scientist":952166,
+        "#astronomy":4318301,
+        "#biology":3216047
+        },
+    "Screen Printing":{
+        "#screenprinting":3806676,
+        "#printing":4203694,
+        "#screen":3806676,
+        "#print":13841249
+        },
+    "Sculptural Ceramics":{
+        "#scupluralceramics":202
+        },
+    "Sculpture":{
+        "#art":637160380,
+        "#design":223679158,
+        "#artist":184160492,
+        "#architecture":127633783,
+        "#instaart":65653909,
+        "#CONTEMPORARYART":36923293,
+        "#sculpture":19013927,
+        "#ceramics":10495664,
+        "#sculptor":964420,
+        "#instasculpture":98183
+        },
     "Self Storage":{
         "#selfstorage": 126797,
         "#unlimitedselfstorage": 108,
         "#selfstorageconversion": 65,
-        "#selfstoragetech": 55
+        "#selfstoragetech": 55,
+        "#storageunit": 31488
     },
+    "Septic Tank Cleaning":{
+        "#septic":1276929,
+        "#cleaning":4165337,
+        "#septictank":25561
+        },
+    "Short Film Production":{
+        "#shortfilm":3754384,
+        "#shortfilmseries":3061,
+        "#firstshortfilm":2553,
+        "#studentshortfilm":2549,
+        "#largeshortfilms":2332
+        },
+    "Skate Shop":{
+        "#skate":17846269,
+        "#skateboard":11253800,
+        "#skatelife":7200477,
+        "#skatepark":3922269,
+        "#skateordie":2522943,
+        "#SKATEBOARDINGISFUN":2511469,
+        "#SKATEEVERYDAMNDAY":2384346,
+        "#skateshop":1328315
+        },
+    "Skating Rink":{
+        "#ICESKATING":3151597,
+        "#FIGURESKATING":1791616,
+        "#FIGURESKATE":684112,
+        "#ICESKATE":285434,
+        "#ICESKATER":252980,
+        "#ICESKATINGFUN":32367
+        },
+    "Ski Resort":{
+        "#resort":7335651,
+        "#ski":53738042,
+        "#skiing":9777689,
+        "#snow":91777092,
+        "#snowboard":11469444,
+        "#skiresort":458378
+        },
+    "Ski Shop":{
+        "#snow":91777092,
+        "#Mountains":7446876,
+        "#ski":53738042,
+        "#snowboarding":11469444,
+        "#snowboard":11469444,
+        "#skiing":9777689,
+        "#powder":6830447
+        },
+    "Snowboard Shop":{
+        "#snow":91777092,
+        "#Mountains":7446876,
+        "#ski":53738042,
+        "#snowboarding":11469444,
+        "#snowboard":11469444,
+        "#skiing":9777689,
+        "#powder":6830447
+    },
+    "Soccer Game":{
+        "#game":35708838,
+        "#sports":36191481,
+        "#sportingevent":24964,
+        "#sportsgame":19032,
+        "#soccer":37835378,
+        "#soccergame":1502826
+        },
+    "Social Media Marketing":{
+        "#socialmedia":18367183,
+        "#ad":439446762,
+        "#socialmediamarketing":10824009,
+        "#socialmediamarketintips":459143,
+        "#marketing":40231639
+        },
+    "Spa Resort":{
+        "#resort":7335651,
+        "#vacation":117463109,
+        "#spa":59592216,
+        "#sparesort":34415,
+        "#hotspring":611316,
+        "#hotsprings":79458
+        },
     "Sporting Event":{
         "#sportingevent": 9292
     },
+    "Sporting Goods":{
+        "#sportinggoods":58125,
+        "#sports":36191481,
+        "#sportshop":70252,
+        "#gear":4337995,
+        "#fitnessgear":4337995,
+        "#sportsgear":84909
+        },
+    "Sports Chiropractor":{
+        "#sportschiropractor":18954
+        },
+    "Sports News":{
+        "#news":27690775,
+        "#magazine":18544845,
+        "#journal":5633289,
+        "#sports":36191481,
+        "#sportsnews":583671,
+        "#basktetball":28749826,
+        "#game":35708838,
+        "#football":67457305,
+        "#soccer":37835378,
+        "#baseball":17447608,
+        "#hockey":11089491
+        },
+    "Sports Photography":{
+        "#sportsphotography":2363999,
+        "#sportsphotographer":502157,
+        "#sportsphoto":2363999,
+        "#sportsphotograhy":2394,
+        "#sportsphotoshoot":2221,
+        "#motosportsphotography":1886,
+        "#collegesportsphotography":1861,
+        "#sportsphotograpy":1612,
+        "#sportsphotographyfans":1593,
+        "#sportsphotograher":1486
+        },
+    "Stand-up Comedy and Improv":{
+        "#standup":4567289,
+        "#comediastandup":21184,
+        "#comedy":45003560,
+        "#comedypodcast":159001,
+        "#livecomedy":158505,
+        "#romanticcomedy":139921,
+        "#justcomedy":132321,
+        "#comedyskit":129479,
+        "#darkcomedy":118723,
+        "#improvcomedy":116849,
+        "#improv":2645536
+        },
     "Steak House":{
         "#cheesesteaks": 73700,
         "#filletsteak": 67578,
@@ -475,6 +1811,148 @@
         "#steaktime": 64683,
         "#hangersteak": 60553
     },
+    "Stock Market Investor":{
+        "#stocks":3625892,
+        "#pennystock":299156,
+        "#trading":7092362,
+        "#stockamarket":2747776,
+        "#investing":6062373,
+        "#invest":10978991,
+        "#investingtips":153483,
+        "#wallstreet":4238826
+        },
+    "Stock Photography":{
+        "#stockphotography":259819,
+        "#stockphoto":259819,
+        "#custockphotography":1334,
+        "#stockphotograpy":1239,
+        "#styledstockphotographer":1211,
+        "#stockphotomodel":1018,
+        "#diversestockphotography":933,
+        "#stockphotographer":30918
+        },
+    "Storage":{
+        "#storage":1735034,
+        "#selfstorage":126797,
+        "#storageunit":31488
+        },
+    "Storage and Moving Equipment Rentals":{
+        "#moving":3979888,
+        "#movingday":890158,
+        "#movingsoon":60257
+        },
+    "Street Performance and Busking":{
+        "#busking":623760,
+        "#buskinglifestyle":       377,
+        "#buskingday":       373,
+        "#buskinglive":       334,
+        "#buskingcompetition":       291,
+        "#partybuskings":       270
+        },
+    "Studio Pottery":{
+        "#studiopottery":224882,
+        "#pottery":8355577,
+        "#potterymug":81069,
+        "#potteryclasses":75105,
+        "#potteryshop":74508,
+        "#potteryvideo":67087,
+        "#potterylovers":59032,
+        "#lovepottery":56823
+        },
+    "Subway Franchise":{
+        "#subway":5988305,
+        "#food":387276792,
+        "#fastfood":4575487,
+        "#delicious":109745418,
+        "#footlong":84660,
+        "#sandwich":7215716,
+        "#meal":11710928
+        },
+    "Sustainable Architecture":{
+        "#sustainablearchitecture":91317
+        },
+    "Tackle Shop":{
+        "#baitandtackle":18248,
+        "#fishing":31376289,
+        "#fishinglife":3398433,
+        "#bait":1387960,
+        "#rods":1498007,
+        "#fish":31918747
+        },
+    "Taco Bell Franchise":{
+        "#food":387276792,
+        "#fastfood":4575487,
+        "#delicious":109745418,
+        "#tacobell":1486345,
+        "#tacos":8973588,
+        "#meal":11710928
+        },
+    "Tapestry Weaving":{
+        "#tapestry":955619,
+        "#tapestryloom":2942,
+        "#antiquetapestry":2895,
+        "#tapestrymagazine":2754,
+        "#tapestryweaversofinstagram":2642,
+        "#dipdyetapestry":2597,
+        "#tapestrysalon":2550,
+        "#tapestrywallhanging":2547,
+        "#tapestryla":2335,
+        "#lifetapestry":2206
+        },
+    "Tax Accounting":{
+        "#taxaccountant":23565,
+        "#taxaccounting":3439,
+        "#accounting":1169513,
+        "#accountingservice":4426,
+        "#softwareaccounting":3959,
+        "#accountingstaff":3604,
+        "#accountingdept":3284
+        },
+    "Tax Planning and Preparation Services":{
+        "#taxaccountant":23565,
+        "#taxaccounting":3439,
+        "#accounting":1169513,
+        "#accountingservice":4426,
+        "#taxes":961130,
+        "#irs":67267375
+        },
+    "Technology News":{
+        "#news":27690775,
+        "#magazine":18544845,
+        "#journal":5633289,
+        "#tech":15859315,
+        "#technology":14004319,
+        "#technews":725442
+        },
+    "Tennis Match":{
+        "#game":35708838,
+        "#sports":36191481,
+        "#sportingevent":24964,
+        "#sportsgame":19032,
+        "#tennis":11148438,
+        "#tennismatch":320316
+        },
+    "Textile Arts":{
+        "#textilearts":55653
+        },
+    "Thai Cuisine":{
+        "#thaicuisine":456685,
+        "#thaithaicuisine":209,
+        "#thaicuisinecville":189,
+        "#thaicuisinerestaurant":173,
+        "#contemporarythaicuisine":159
+        },
+    "Theater and Drama":{
+        "#theater":5847498,
+        "#dancetheater":29854,
+        "#parktheater":28593,
+        "#driveintheater":27859,
+        "#granadatheater":26471,
+        "#theatermakeup":26087,
+        "#drama":10564998,
+        "#dramas":223737,
+        "#newdrama":189231
+        },
     "Towing":{
         "#towing": 432660,
         "#towingbar": 4476,
@@ -486,8 +1964,150 @@
         "#flatbedtowing": 3797,
         "#towingsolo": 3736
     },
+    "Travel News":{
+        "#news":27690775,
+        "#magazine":18544845,
+        "#journal":5633289,
+        "#travel":492251333,
+        "#travelnews":39811,
+        "#beach":245195636,
+        "#vacation":117463109
+        },
+    "Turo":{
+        "#turo":3001382,
+        "#car":68954747,
+        "#cars":54362247,
+        "#carsforsale":1064216,
+        "#carsdaily":886854,
+        "#carsovereverything":873557,
+        "#racecars":865648,
+        "#dreamcars":860352,
+        "#carrental":431109
+        },
+    "Tutoring":{
+        "#tutor":28925072,
+        "#tutoring":342100,
+        "#school":44150226,
+        "#college":20314135,
+        "#learning":13202003
+        },
+    "Urban Planning and Design":{
+        "#urbanplanning":265889,
+        "#urbandesign":613167,
+        "#urbandesignforum":161,
+        "#architectureandurbandesign":149,
+        "#masterofurbandesign":145,
+        "#discoverdurbandesign":123,
+        "#urbandesignhighlights":106,
+        "#urbandesignandbuild":96
+        },
+    "Vacation Rentals by Owner":{
+        "#vrbo":285412,
+        "#vrbohomes":       245,
+        "#airbnb":4708969,
+        "#airbnbmanagement":14228,
+        "#airbnbopen":13648,
+        "#airbnbcoupon":12043,
+        "#airbnbpartner":11999,
+        "#airbnbsuperhosts":11982
+    },
+    "Vehicle Storage Services":{
+        "#vehiclestorage":5009,
+        "#garage":4491596,
+        "#storage":1735034,
+        "#selfstorage":126797,
+        "#storageunit":31488
+        },
+    "Vietnamese Cuisine":{
+        "#vietnamesefoodrocks": 366,
+        "#northernvietnamesefood": 350,
+        "#centralvietnamesefood": 327,
+        "#welovevietnamesefood": 321,
+        "#deliciousvietnamesefood": 308,
+        "#vietnamesefoodathome": 248,
+        "#vietnamesefoodstreet": 242
+        },
+    "Volleyball Game":{
+        "#game":35708838,
+        "#sports":36191481,
+        "#sportingevent":24964,
+        "#sportsgame":19032,
+        "#volleyball":7679688,
+        "#volleyballclub":74881,
+        "#sandvolleyball":74061,
+        "#clubvolleyball":59687,
+        "#volleyballtournament":55069,
+        "#volleyballphoto":45164,
+        "#volleyballove":44816,
+        "#ilovevolleyball":41588
+        },
+    "VRBO":{
+        "#vrbo":285412,
+        "#vrbohomes":       245,
+        "#airbnb":4708969,
+        "#airbnbmanagement":14228,
+        "#airbnbopen":13648,
+        "#airbnbcoupon":12043,
+        "#airbnbpartner":11999,
+        "#airbnbsuperhosts":11982
+        },
+    "Warehouse Storage":{
+        "#warehouse":1341461,
+        "#storage":1735034,
+        "#selfstorage":126797,
+        "#storageunit":31488
+        },
     "Warehousing":{
         "#warehouse": 1341461,
         "#warehousing": 66595
-    }
+    },
+    "Waste Management":{
+        "#waste":5264652,
+        "#wastemanagement":166586,
+        "#trash":4050841,
+        "#ecofriendly":8714988
+        },
+    "Weather News":{
+        "#news":27690775,
+        "#magazine":18544845,
+        "#journal":5633289,
+        "#weather":33573976,
+        "#rain":101497219,
+        "#snow":91777092,
+        "#hail":68056494
+        },
+    "Weaving":{
+        "#weaving":1885909,
+        "#weavingdreams":9075,
+        "#rattanweaving":8363,
+        "#silkweaving":8134,
+        "#i_loveweaving":7906,
+        "#handloomweaving":7385,
+        "#weavingspecialist":7098,
+        "#iloveweaving":6979,
+        "#artofweaving":6638
+        },
+    "Wedding Photography":{
+        "#weddingphotography":30554836,
+        "#funweddingphotography":26179,
+        "#postweddingphotography":24568,
+        "#weddingphotographer":17722099,
+        "#bestweddingphotographer":168694,
+        "#weddingphoto":30554836,
+        "#photography":569172253,
+        "#photo":787341565
+        },
+    "Wendy's Franchise":{
+        "#food":387276792,
+        "#fastfood":4575487,
+        "#delicious":109745418,
+        "#wendys":616010,
+        "#meal":11710928
+        },
+    "Wide format Printing":{
+        "#printing":4203694,
+        "#wide":13736868,
+        "#wideformatprinting":36371,
+        "#print":13841249
+        }
 }
