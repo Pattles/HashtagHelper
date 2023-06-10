@@ -1,6 +1,6 @@
 # HashtagHelper
 
-HashtagHelper is a #hashtag service that generates the best hashtags out there for your social media posts.
+HashtagHelper is a #hashtag service that will find the optimal hashtags for your social media posts.
 
 Using 2-4 hashtags can improve your post's reach by upwards of 10%, while using 10-11 can improve it by 12%.
 
