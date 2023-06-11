@@ -887,6 +887,16 @@
         "#greekfoodrocks": 732,
         "#healthygreekfood": 618
     },
+    "Gym":{
+        "gym":185918169,
+        "gymrats":1023562,
+        "gymislife":792674,
+        "gymgear":784837,
+        "fitness":391694487,
+        "fit":391694487,
+        "workout":159497859,
+        "bodybuilding":103774011
+    },
     "Health Food": {
         "#healthfoodaddict": 1055,
         "#healthfoodcentral": 1119,
