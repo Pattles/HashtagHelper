@@ -57,6 +57,18 @@
         "Target Audience",
         "Television Ads"
     ],
+    "AI": [
+        "Artificial Intelligence",
+        "Automation",
+        "Cognitive Computing",
+        "Data Science",
+        "Deep Learning",
+        "Intelligent Systems",
+        "Machine Learning",
+        "Natural Language Processing",
+        "Neural Networks",
+        "Robotics"
+    ],
     "Airbnb": [
         "home-sharing",
         "hospitality",
@@ -112,6 +124,18 @@
         "rehearsal",
         "script",
         "stagecraft"
+    ],
+    "Artificial Intelligence": [
+        "Artificial Intelligence",
+        "Automation",
+        "Cognitive Computing",
+        "Data Science",
+        "Deep Learning",
+        "Intelligent Systems",
+        "Machine Learning",
+        "Natural Language Processing",
+        "Neural Networks",
+        "Robotics"
     ],
     "Audio and Visual Equipment Rentals": [
         "Camera Rentals",
@@ -304,6 +328,18 @@
         "stout",
         "taproom"
     ],
+    "Builder": [
+        "Blueprint",
+        "Builder",
+        "Building Projects",
+        "Construction Site",
+        "Construction",
+        "Craftsmanship",
+        "Homebuilding",
+        "Renovation",
+        "Skilled Trades",
+        "Structural Design"
+    ],
     "Burger King Franchise": [
         "Breakfast Croissan'wich",
         "Chicken Fries",
@@ -326,6 +362,18 @@
         "Investment news",
         "Market developments",
         "Stock market news"
+    ],
+    "Business Services": [
+        "Administrative Support",
+        "Business Services",
+        "Consulting",
+        "Financial Management",
+        "Human Resources",
+        "IT Solutions",
+        "Marketing Strategy",
+        "Outsourcing",
+        "Professional Solutions",
+        "Strategic Planning"
     ],
     "Cafe": [
         "cappuccino",
@@ -686,6 +734,18 @@
         "VIP protection",
         "Venue safety"
     ],
+    "Construction": [
+        "Architecture",
+        "Blueprint",
+        "Building",
+        "Construction",
+        "Contractors",
+        "Infrastructure",
+        "Progress",
+        "Renovation",
+        "Site",
+        "Skilled labor"
+    ],
     "Construction Equipment Rentals": [
         "Backhoes for Rent",
         "Boom Lift Rentals",
@@ -710,6 +770,18 @@
         "Quality control",
         "Safety management",
         "Site inspection"
+    ],
+    "Consultant": [
+        "Business Advisor",
+        "Business Growth",
+        "Client Success",
+        "Consultant",
+        "Consulting Solutions",
+        "Expert Advice",
+        "Industry Insights",
+        "Problem Solving",
+        "Professional Services",
+        "Strategy Consulting"
     ],
     "Content Marketing": [
         "Blogging",
@@ -833,6 +905,18 @@
         "Polishing",
         "Waxing"
     ],
+    "Dieting Specialist": [
+        "Balanced Diet",
+        "Dieting Specialist",
+        "Healthy Eating",
+        "Healthy Habits",
+        "Lifestyle Changes",
+        "Meal Planning",
+        "Nutrition Expert",
+        "Nutritional Guidance",
+        "Weight Loss Journey",
+        "Wellness Coach"
+    ],
     "Digital Marketing": [
         "Content Marketing",
         "Display Advertising",
@@ -923,6 +1007,18 @@
         "Iced coffee",
         "Munchkins"
     ],
+    "E-Commerce": [
+        "Digital Marketplace",
+        "E-commerce Platform",
+        "E-commerce",
+        "Internet Retail",
+        "Online Business",
+        "Online Payments",
+        "Online Shopping",
+        "Online Store",
+        "Online Transactions",
+        "Virtual Shopping"
+    ],
     "Editorial Photography": [
         "Black and white photography",
         "Celebrity photography",
@@ -1001,6 +1097,30 @@
         "Hand embroidery",
         "Machine embroidery",
         "Silk ribbon embroidery"
+    ],
+    "Energy": [
+        "Clean Energy",
+        "Conservation",
+        "Efficiency",
+        "Energy Transition",
+        "Energy",
+        "Green Technology",
+        "Power",
+        "Renewable Resources",
+        "Renewable",
+        "Sustainability"
+    ],
+    "Entertainment": [
+        "Amusement",
+        "Celebrities",
+        "Enjoyment",
+        "Entertainment",
+        "Events",
+        "Fun",
+        "Movies",
+        "Music",
+        "Performance",
+        "Recreation"
     ],
     "Entertainment News": [
         "Award shows",
@@ -1195,6 +1315,18 @@
     "Financial Advising": [
         "charitable"
     ],
+    "Financial Services": [
+        "Banking",
+        "Budgeting",
+        "Financial Advice",
+        "Financial Planning",
+        "Financial Services",
+        "Insurance",
+        "Investments",
+        "Retirement Planning",
+        "Tax Services",
+        "Wealth Management"
+    ],
     "Fine Art Photography": [
         "Aesthetic",
         "Conceptual",
@@ -1263,6 +1395,30 @@
         "Fishing Shows",
         "Fishing Workshops"
     ],
+    "Fitness": [
+        "Active",
+        "Cardio",
+        "Exercise",
+        "Fitness",
+        "Health",
+        "Motivation",
+        "Strength",
+        "Training",
+        "Wellness",
+        "Workout"
+    ],
+    "Fitness Center": [
+        "Active",
+        "Cardio",
+        "Exercise",
+        "Fitness",
+        "Health",
+        "Motivation",
+        "Strength",
+        "Training",
+        "Wellness",
+        "Workout"
+    ],
     "Five Guys Franchise": [
         "Customizable burgers",
         "Delicious toppings",
@@ -1329,6 +1485,18 @@
         "Tea sets",
         "Toothbrush holder",
         "Utensil holder"
+    ],
+    "Funeral Home": [
+        "Bereavement",
+        "Compassionate Care",
+        "Funeral Arrangements",
+        "Funeral Ceremony",
+        "Funeral Home",
+        "Funeral Planning",
+        "Funeral Services",
+        "Grief Support",
+        "Honoring Loved Ones",
+        "Memorial Service"
     ],
     "Garden Center": [
         "bouquets",
@@ -1424,17 +1592,17 @@
         "Tzatziki",
         "Yemista"
     ],
-    "Gym":[
-        "Fitness",
-        "Workout",
-        "Strength",
-        "Gym Life",
+    "Gym": [
         "Exercise",
+        "Fitness",
+        "Gym Life",
         "Health",
-        "Sweat",
         "Motivation",
         "Progress",
-        "Transformation"
+        "Strength",
+        "Sweat",
+        "Transformation",
+        "Workout"
     ],
     "Health Food": [
         "dairy-free",
@@ -1785,6 +1953,18 @@
         "Leaf Blower Rentals",
         "Pressure Washer Rentals"
     ],
+    "Legal Services": [
+        "Contract Law",
+        "Law Firm",
+        "Legal Advice",
+        "Legal Counsel",
+        "Legal Expertise",
+        "Legal Representation",
+        "Legal Services",
+        "Legal Solutions",
+        "Legal Support",
+        "Litigation"
+    ],
     "Letterpress Printing": [
         "Custom design options",
         "Custom die-cutting options",
@@ -1909,6 +2089,18 @@
         "hvac",
         "mechatronics",
         "thermodynamics"
+    ],
+    "Media": [
+        "Broadcasting",
+        "Communication",
+        "Digital Content",
+        "Entertainment",
+        "Journalism",
+        "Media",
+        "Multimedia",
+        "News Updates",
+        "Social Media",
+        "Visual Storytelling"
     ],
     "Mexican Cuisine": [
         "burritos",
@@ -2060,6 +2252,18 @@
         "publication",
         "scoop"
     ],
+    "NFT": [
+        "Blockchain",
+        "Collectibles",
+        "Cryptocurrency",
+        "Decentralization",
+        "Digital Art",
+        "Digital Marketplace",
+        "Digital Ownership",
+        "NFT",
+        "Tokenization",
+        "Unique Assets"
+    ],
     "Nursery": [
         "Garden center",
         "Garden design",
@@ -2134,6 +2338,18 @@
         "Personalized recommendations",
         "Self-paced learning",
         "User-friendly interface"
+    ],
+    "Online Retail": [
+        "Digital Marketplace",
+        "E-commerce",
+        "Internet Retail",
+        "Online Deals",
+        "Online Retail",
+        "Online Shopping",
+        "Online Storefront",
+        "Shop Online",
+        "Virtual Store",
+        "Web-based Shopping"
     ],
     "Orthodontics": [
         "Bite correction",
@@ -2262,6 +2478,18 @@
         "Talent booking",
         "Technical production",
         "Venue management"
+    ],
+    "Personal Trainer": [
+        "Accountability",
+        "Body Transformation",
+        "Exercise Guidance",
+        "Fitness Coach",
+        "Fitness Goals",
+        "Fitness Journey",
+        "Health Expert",
+        "Personal Trainer",
+        "Strength Training",
+        "Workout Motivation"
     ],
     "Pet Photography": [
         "Adorable",
@@ -2607,6 +2835,18 @@
         "Restoration",
         "Victorian"
     ],
+    "Retail": [
+        "Customer Experience",
+        "Discounts",
+        "Fashion",
+        "Online Shopping",
+        "Products",
+        "Retail Therapy",
+        "Retail",
+        "Sales",
+        "Shopping",
+        "Store"
+    ],
     "Roofing": [
         "gutter",
         "roof",
@@ -2814,6 +3054,30 @@
         "Social Media Strategy",
         "TikTok Marketing",
         "User-Generated Content"
+    ],
+    "Software": [
+        "Applications",
+        "Coding",
+        "Development",
+        "Programming",
+        "Software Development Lifecycle",
+        "Software Engineering",
+        "Software Solutions",
+        "Software",
+        "Technology",
+        "User Interface"
+    ],
+    "Software Development": [
+        "Agile Methodology",
+        "Code Quality",
+        "Coding",
+        "Debugging",
+        "Development Process",
+        "Programming",
+        "Software Deployment",
+        "Software Development",
+        "Software Engineering",
+        "Version Control"
     ],
     "Spa Resort": [
         "Facial treatments",
@@ -3085,6 +3349,18 @@
         "Tax preparation",
         "Tax returns",
         "Tax season"
+    ],
+    "Technology": [
+        "Artificial Intelligence",
+        "Automation",
+        "Cloud Computing",
+        "Cybersecurity",
+        "Digital",
+        "Innovation",
+        "Internet of Things",
+        "Tech Gadgets",
+        "Tech Trends",
+        "Technology"
     ],
     "Technology News": [
         "Artificial intelligence news",

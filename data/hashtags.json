@@ -49,6 +49,14 @@
         "#marketing": 40231639,
         "#socialmedia": 18367183
     },
+    "AI":{
+        "#ai": 439446762,
+        "#artificialintelligence":4252000,
+        "#future":23305000,
+        "#innovation":13942000,
+        "#technology": 14004319,
+        "#tech": 15859315
+    },
     "Airbnb": {
         "#airbnb": 4708969,
         "#airbnbcoupon": 12043,
@@ -88,6 +96,14 @@
         "#artists": 13966646,
         "#modernart": 16258864,
         "#urbanart": 14492932
+    },
+    "Artificial Intelligence":{
+        "#ai": 439446762,
+        "#artificialintelligence":4252000,
+        "#future":23305000,
+        "#innovation":13942000,
+        "#technology": 14004319,
+        "#tech": 15859315
     },
     "Audio and Visual Equipment Rentals": {
         "#audiorental": 5979,
@@ -211,6 +227,17 @@
         "#lovebeer": 741044,
         "#thebrewery": 23912
     },
+    "Builder":{
+        "#builder": 19176555,
+        "#construction": 12278135,
+        "#interiordesign": 91817913,
+        "#design": 223679158,
+        "#architecture": 127633783,
+        "#home": 145179070,
+        "#homerenovation": 2008537,
+        "#building": 103774011,
+        "#contractor": 2095861
+    },
     "Burger King Franchise": {
         "#burger": 16622371,
         "#burgerking": 1800216,
@@ -227,6 +254,13 @@
         "#magazine": 18544845,
         "#news": 27690775,
         "#stocks": 3625892
+    },
+    "Business Services":{
+        "#businessservices": 158211,
+        "#businessstartup":597000,
+        "#businessconsultant":854000,
+        "#startup":25000000,
+        "#businessmindset":2700000
     },
     "Cafe": {
         "#coffee_inst": 999419,
@@ -419,6 +453,15 @@
         "#security": 3395845,
         "#securityguards": 29811
     },
+    "Construction":{
+        "#construction": 12278135,
+        "#constructionlife": 1682000,
+        "#newconstruction": 3694000,
+        "#constructioncompany": 401000,
+        "#constructionwork": 263859,
+        "#home": 207000000,
+        "#renovation": 16800000
+    },
     "Construction Equipment Rentals": {
         "#construction": 12278135,
         "#equipmentrental": 35807,
@@ -427,6 +470,14 @@
     "Construction Management": {
         "#construction": 12278135,
         "#contructionmanagement": 179402
+    },
+    "Consultant":{
+        "#consultant": 1393834,
+        "#business": 63374819,
+        "#entrepreneur": 63668820,
+        "#consulting": 1509476,
+        "#marketing": 40231639,
+        "#ppt":386160
     },
     "Content Marketing": {
         "#blog": 117128159,
@@ -508,6 +559,15 @@
         "#interiorcardetailing": 1214,
         "#newcardetailing": 794
     },
+    "Dieting Specialist":{
+        "#dieting": 4711111,
+        "#diet": 64904512,
+        "#bodybuilding": 103774011,
+        "#nutrition": 46797013,
+        "#weightloss": 64664591,
+        "#mealprep": 11710928,
+        "#fitness":391694487
+    },
     "Digital Marketing": {
         "#content": 4659319,
         "#ctr": 23987391,
@@ -574,6 +634,13 @@
         "#food": 387276792,
         "#meal": 11710928
     },
+    "E-Commerce":{
+        "#onlineretail": 57425,
+        "#ecommerce":13978000,
+        "#onlineshopping": 44697220,
+        "#onlinestore": 9921131,
+        "#ecom": 10959577
+    },
     "Editorial Photography": {
         "#bridaleditorialphotoshoot": 356,
         "#editorialphoto": 2276239,
@@ -611,6 +678,20 @@
         "#hoopembroidery": 61435,
         "#lunevilleembroidery": 58591,
         "#ribbonembroidery": 60014
+    },
+    "Energy":{
+        "#energy": 26779141,
+        "#cleanenergy":1297000,
+        "#netzero":235000,
+        "#innovation":13942000,
+        "#greenenergy":1228000
+    },
+    "Entertainment":{
+        "#entertainment": 14266351,
+        "#trending": 35189692,
+        "#news": 27690775,
+        "#story": 33100368,
+        "#culture": 28583491
     },
     "Entertainment News": {
         "#celebrity": 14428049,
@@ -743,6 +824,13 @@
         "#financialsupport": 40215,
         "#financialtechnologi": 31792
     },
+    "Financial Services":{
+        "#financialservices": 613000,
+        "#entrepreneur": 98238000,
+        "#finance": 14820000,
+        "#financemanager": 72000,
+        "#financialfreedom": 13212000
+    },
     "Fine Art Photography": {
         "#22over7fineartphotography": 444,
         "#blackandwhitefineartphotography": 1874,
@@ -790,6 +878,28 @@
         "#fishinglife": 3398433,
         "#fishingtournament": 95401
     },
+    "Fitness":{
+        "#gym":185918169,
+        "#gymrats":1023562,
+        "#gymislife":792674,
+        "#gymgear":784837,
+        "#fitness":391694487,
+        "#fit":391694487,
+        "#workout":159497859,
+        "#bodybuilding":103774011,
+        "#fitnesscenter":312757
+    },
+    "Fitness Center":{
+        "#gym":185918169,
+        "#gymrats":1023562,
+        "#gymislife":792674,
+        "#gymgear":784837,
+        "#fitness":391694487,
+        "#fit":391694487,
+        "#workout":159497859,
+        "#bodybuilding":103774011,
+        "#fitnesscenter":312757
+    },
     "Five Guys Franchise": {
         "#burger": 16622371,
         "#burgersandfries": 231737,
@@ -830,6 +940,13 @@
     "Functional Ceramics": {
         "#functionalceramics": 88657
     },
+    "Funeral Home":{
+        "#funeral":758028,
+        "#grief": 1265326,
+        "#loss": 64664591,
+        "#burial":117958,
+        "#cremation":75896
+    },
     "Garden Center": {
         "#backyardgarden": 824105,
         "#bestflowerspics": 1002405,
@@ -841,6 +958,10 @@
         "#kitchengarden": 735308,
         "#macrogardener": 765818,
         "#yellowflowers": 902552
+    },
+    "Garden Equipment Rentals":{
+        "#equipmentrental": 35807,
+        "#rental": 2193418
     },
     "Garden Supplies": {
         "#backyardgarden": 824105,
@@ -888,14 +1009,15 @@
         "#healthygreekfood": 618
     },
     "Gym":{
-        "gym":185918169,
-        "gymrats":1023562,
-        "gymislife":792674,
-        "gymgear":784837,
-        "fitness":391694487,
-        "fit":391694487,
-        "workout":159497859,
-        "bodybuilding":103774011
+        "#gym":185918169,
+        "#gymrats":1023562,
+        "#gymislife":792674,
+        "#gymgear":784837,
+        "#fitness":391694487,
+        "#fit":391694487,
+        "#workout":159497859,
+        "#bodybuilding":103774011,
+        "#fitnesscenter":312757
     },
     "Health Food": {
         "#healthfoodaddict": 1055,
@@ -1082,9 +1204,15 @@
         "#softlandscaping": 3896,
         "#thelawn": 27714
     },
-    "Lawn Equipment Rentals / Garden Equipment Rentals": {
+    "Lawn Equipment Rentals": {
         "#equipmentrental": 35807,
         "#rental": 2193418
+    },
+    "Legal Services":{
+        "#legalservices": 335835,
+        "#legal": 4134000,
+        "#law": 7147000,
+        "#lawyer": 5368000
     },
     "Letterpress Printing": {
         "#letterpress": 970295,
@@ -1164,6 +1292,11 @@
     "Mechanical Engineering": {
         "#mechanical_engineer": 9914,
         "#mechanicalcontractor": 1099510
+    },
+    "Media":{
+        "#media":18398000,
+        "#socialmedia": 18367183,
+        "#music": 312013927
     },
     "Mexican Cuisine": {
         "#freshmexicanfood": 2467,
@@ -1282,6 +1415,16 @@
         "#nflnews": 607701,
         "#sportsnews": 583671
     },
+    "NFT":{
+        "#nft": 16863000,
+        "#nfts": 6833000,
+        "#crypto": 15903000,
+        "#cryptocurrency": 14113000,
+        "#eth": 4330000,
+        "#ethereum": 8047000,
+        "#bayc": 196309,
+        "#cryptopunks": 268774
+    },
     "Nursery": {
         "#boynursery": 40451,
         "#boysnursery": 35157,
@@ -1332,6 +1475,13 @@
         "#learning": 13202003,
         "#onlinelearning": 418309,
         "#school": 44150226
+    },
+    "Online Retail":{
+        "#onlineretail": 57425,
+        "#ecommerce":13978000,
+        "#onlineshopping": 44697220,
+        "#onlinestore": 9921131,
+        "#ecom": 10959577
     },
     "Orthodontics": {
         "#dentist": 7336956,
@@ -1403,6 +1553,14 @@
         "#thevenue": 55400,
         "#venue": 2635330,
         "#venuehire": 55277
+    },
+    "Personal Trainer":{
+        "#personaltrainer": 29994329,
+        "#fitness":391694487,
+        "#workout":159497859,
+        "#bodybuilding": 103774011,
+        "#muscle": 56257398,
+        "#gym":185918169
     },
     "Pet Photography": {
         "#featureapetphoto": 2433,
@@ -1622,6 +1780,14 @@
     "Restoration Architecture": {
         "#restorationarchitecture": 611
     },
+    "Retail":{
+        "#retail": 5710874,
+        "#shopping": 120430241,
+        "#sale": 71992770,
+        "#retaillife":330000,
+        "#retailer":508000,
+        "#retailstore": 298000
+    },
     "Roofing": {
         "#roofingcrew": 5015,
         "#roofingmaterials": 5128,
@@ -1751,6 +1917,26 @@
         "#socialmedia": 18367183,
         "#socialmediamarketing": 10824009,
         "#socialmediamarketintips": 459143
+    },
+    "Software":{
+        "#software": 2373227,
+        "#coding": 6100000,
+        "#programming": 6554000,
+        "#developer": 5213000,
+        "#coder": 2249000,
+        "#technology": 14004319,
+        "#tech": 15859315,
+        "#softwaredeveloper": 1897000
+    },
+    "Software Development":{
+        "#software": 2373227,
+        "#coding": 6100000,
+        "#programming": 6554000,
+        "#developer": 5213000,
+        "#coder": 2249000,
+        "#technology": 14004319,
+        "#tech": 15859315,
+        "#softwaredeveloper": 1897000
     },
     "Spa Resort": {
         "#hotspring": 611316,
@@ -1925,6 +2111,13 @@
         "#taxaccountant": 23565,
         "#taxaccounting": 3439,
         "#taxes": 961130
+    },
+    "Technology":{
+        "#technology": 14004319,
+        "#tech": 15859315,
+        "#future":23305000,
+        "#innovation":13942000,
+        "#engineering":14582000
     },
     "Technology News": {
         "#journal": 5633289,
