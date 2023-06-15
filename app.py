@@ -7,6 +7,10 @@ app = Flask(__name__, static_folder='static')
 def index():
     return render_template('index.html')
 
+@app.route('/404')
+def error_page():
+    return render_template('404.html')
+
 @app.route('/hashtags')
 def get_hashtags():
     # Retrieve the array of hashtags from your data source
