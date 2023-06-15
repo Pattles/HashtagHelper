@@ -1,6 +1,10 @@
 # HashtagHelper
 
-HashtagHelper is a #hashtag service that will auto-generate hashtags for social media posts, using AI to find the best hashtags for you.
+HashtagHelper is a #hashtag service that will find the optimal hashtags for your social media posts.
+
+Using 2-4 hashtags can improve your post's reach by upwards of 10%, while using 10-11 can improve it by 12%.
+
+For questions, support, or feedback, email us at [info.socialtechllc@gmail.com](mailto:info.socialtechllc@gmail.com)
 
 To run, start `app.py` & visit http://127.0.0.1:5000
 
