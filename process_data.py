@@ -162,19 +162,21 @@ def process_data(location, industry, business_name, caption):
     # Removing duplicate hashtags.
     all_hashtags = list(set(all_hashtags))
 
-    # Getting top 7 hashtags.
+    # Getting top 10 hashtags.
     sorted_hashtags = sorted(all_hashtags, key=lambda x: x[1], reverse=True)
-    top_hashtags = [hashtag[0] for hashtag in sorted_hashtags[:8]]
+    top_hashtags = [hashtag[0] for hashtag in sorted_hashtags[:10]]
 
     # Adding County, City, and Business name hashtags.
     if business_name_hashtag and business_name_hashtag not in top_hashtags:
-        top_hashtags.pop(-1)
+        top_hashtags.pop(random.randint(1, 5))
         top_hashtags.append(business_name_hashtag)
     
     if county_hashtag:
+        top_hashtags.pop(random.randint(1, 5))
         top_hashtags.append(county_hashtag)
 
     if city_hashtag:
+        top_hashtags.pop(random.randint(1, 5))
         top_hashtags.append(city_hashtag)
 
     return top_hashtags
