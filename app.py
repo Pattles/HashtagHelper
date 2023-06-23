@@ -1,7 +1,16 @@
 import process_data
 from common import *
+from werkzeug.middleware.proxy_fix import ProxyFix # New, might need to revert.
 
 app = Flask(__name__, static_folder='static')
+app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1) # New, might need to revert.
+
+@app.before_request
+def enforce_https():
+    # Redirect HTTP requests to HTTPS
+    if not request.is_secure and app.env == 'production':
+        url = request.url.replace('http://', 'https://', 1)
+        return redirect(url, code=301)
 
 @app.route('/')
 def index():
@@ -32,8 +41,11 @@ def submit():
 
     return jsonify({'hashtags':output})
 
-def run():
-    app.run(debug=True)
+def run(): # New, might need to revert.
+    import os
+    host = os.environ.get('HOST', '0.0.0.0')
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host=host, port=port)
 
 if __name__ == '__main__':
     run()
