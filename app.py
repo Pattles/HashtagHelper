@@ -1,9 +1,9 @@
 import process_data
 from common import *
-from werkzeug.middleware.proxy_fix import ProxyFix # New, might need to revert.
+from werkzeug.middleware.proxy_fix import ProxyFix
 
 app = Flask(__name__, static_folder='static')
-app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1) # New, might need to revert.
+app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)
 
 @app.before_request
 def enforce_https():
@@ -41,7 +41,7 @@ def submit():
 
     return jsonify({'hashtags':output})
 
-def run(): # New, might need to revert.
+def run():
     import os
     host = os.environ.get('HOST', '0.0.0.0')
     port = int(os.environ.get('PORT', 5000))
