@@ -32,5 +32,8 @@ def submit():
 
     return jsonify({'hashtags':output})
 
-if __name__ == '__main__':
+def run():
     app.run(debug=True)
+
+if __name__ == '__main__':
+    run()
