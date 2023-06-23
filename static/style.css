@@ -15,6 +15,10 @@ p {
     margin: 0 29%;
 }
 
+.our_links {
+    text-align: center
+}
+
 form {
     text-align: center;
     margin-top: 50px;

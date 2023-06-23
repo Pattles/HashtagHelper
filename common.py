@@ -1,5 +1,6 @@
 from flask import Flask, request, render_template, jsonify
 import json
+import random
 import requests
 import sqlite3
 from flashtext import KeywordProcessor
