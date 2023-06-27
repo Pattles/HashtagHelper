@@ -109,3 +109,6 @@ option {
     padding: 12px 20px;
 }
   
+select:focus {
+    font-size: 16px;
+}
