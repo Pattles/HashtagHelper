@@ -44,6 +44,7 @@ textarea {
     background-color: white;
     color: black;
     font-family: 'Trebuchet MS';
+    font-size: 16px;
 }
 
 input[type='submit'] {
@@ -67,12 +68,14 @@ input[type='submit']:hover {
 
 textarea {
     height: 200px;
+    font-size: 16px;
 }
 
 label, input, textarea {
     width: 50%;
     max-width: 600px;
     min-width: 600px;
+    font-size: 16px;
 }
 
 select {
@@ -106,3 +109,6 @@ option {
     padding: 12px 20px;
 }
   
+select:focus {
+    font-size: 16px;
+}

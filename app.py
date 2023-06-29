@@ -1,16 +1,17 @@
 import process_data
 from common import *
 from werkzeug.middleware.proxy_fix import ProxyFix
+from flask import Flask, request, render_template, jsonify, redirect
 
 app = Flask(__name__, static_folder='static')
 app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)
 
 @app.before_request
 def enforce_https():
-    # Redirect HTTP requests to HTTPS
-    if not request.is_secure and app.env == 'production':
-        url = request.url.replace('http://', 'https://', 1)
-        return redirect(url, code=301)
+    if not request.is_secure:
+        secure_url = request.url.replace('http://', 'https://', 1)
+        return redirect(secure_url, code=301)
+
 
 @app.route('/')
 def index():
