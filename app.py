@@ -8,14 +8,14 @@ from flask import Flask, request, render_template, jsonify, redirect
 app = Flask(__name__, static_folder='static')
 app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)
 
-"""
-Remove once SSL certificate is acquired.
+
+# Remove once SSL certificate is acquired.
 @app.before_request
 def enforce_https():
     if not request.is_secure:
         secure_url = request.url.replace('http://', 'https://', 1)
         return redirect(secure_url, code=301)
-"""
+
 
 @app.route('/')
 def index():
