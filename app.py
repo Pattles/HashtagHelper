@@ -8,10 +8,16 @@ app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)
 
 @app.before_request
 def enforce_https():
-    # Redirect HTTP requests to HTTPS
+    if not request.is_secure:
+        secure_url = request.url.replace('http://', 'https://', 1)
+        return redirect(secure_url, code=301)
+    """
+    Remove once SSL certificate is acquired.
     if not request.is_secure and app.env == 'production':
-        url = request.url.replace('http://', 'https://', 1)
-        return redirect(url, code=301)
+        # Redirect to HTTPS version of the URL
+        secure_url = request.url.replace('http://', 'https://', 1)
+        return redirect(secure_url, code=301)
+    """
 
 @app.route('/')
 def index():
