@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
         closeButton.addEventListener('click', () => {
           popup.remove();
           document.body.classList.remove('blur');
+          document.body.style.pointerEvents = 'auto'; // Makes it so the page can be interacted with again
         });
       popup.appendChild(closeButton);
       closeButton.style.visibility = 'visible';
@@ -69,6 +70,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Everything else
       document.body.appendChild(popup);
+      document.body.style.pointerEvents = 'none'; // Preventing page to be interacted with
+      popup.style.pointerEvents = 'auto'; // With only popup being able to be interacted with
       document.body.classList.add('blur');
 
     } else {
