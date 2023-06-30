@@ -25,4 +25,4 @@ After you create a pull request & successfully merge, you should see a message t
 6. Start working on your new branch as usual.
 
 ## Archived Code
-* [beta1 to v1.0 CSS](https://mystb.in/)
+* [beta1 to v1.0 CSS](https://mystb.in/ForestryCheckoutMuseum)
