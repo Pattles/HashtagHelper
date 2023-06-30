@@ -1,0 +1,30 @@
+body {
+    background-color: #48ddc8;
+    color: white;
+    font-family: 'Trebuchet MS';
+    margin-bottom: 100px;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+.primary-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column; /* If you want the content to stack vertically */
+    justify-content: center;
+    margin: 0 auto; /* Center the container horizontally */
+    width: 50%; /* Limit the width to % of the available space */
+    padding: 20px;
+
+    /* border: 2px solid grey; /* Exists purely for visual representation */
+}
+
+.container {
+    padding: 10px;
+    width: 75%;
+    font-size: 14px;
+
+    /* border: 2px solid grey; /* Exists purely for visual representation */
+}

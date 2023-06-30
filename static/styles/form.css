@@ -1,0 +1,40 @@
+.form-group {
+    width: 100%;
+
+    /* border: 2px solid grey; /* Exists purely for visual representation */
+}
+
+input[type='text'],
+textarea {
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+    font-family: inherit;
+    padding: 10px 20px;
+    width: 100%;;
+}
+
+input[type='submit'] {
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    color: #48ddc8;
+    cursor: pointer;
+    font-family: inherit;
+    margin-top: 10px;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+input[type='submit']:hover {
+    background-color: #48ddc8;
+    color: white;
+    border: white;
+    border-radius: 4px;
+}
+
+#caption {
+    height: 200px;
+}
