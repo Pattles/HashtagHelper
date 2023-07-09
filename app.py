@@ -4,30 +4,17 @@ from common import *
 from werkzeug.middleware.proxy_fix import ProxyFix
 from flask import Flask, request, render_template, jsonify, redirect
 
-
-
-# Remove comment before committing.
 app = Flask(__name__, static_folder='static')
 app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)
 
+# """
+# Remove this comment before committing.
 @app.before_request
 def enforce_https():
     if not request.is_secure:
         secure_url = request.url.replace('http://', 'https://', 1)
         return redirect(secure_url, code=301)
-
-
-"""
-app = Flask(__name__) # Remove before committing.
-
-# Remove before committing and replace with the commented out code above.
-@app.before_request
-def enforce_https():
-    if os.environ.get('FLASK_ENV') == 'production':
-        if not request.is_secure:
-            secure_url = request.url.replace('http://', 'https://', 1)
-            return redirect(secure_url, code=301)
-"""
+# """
 
 @app.route('/')
 def index():
@@ -60,12 +47,8 @@ def submit():
 
 def run():
     host = os.environ.get('HOST', '0.0.0.0')
-    port = int(os.environ.get('PORT', 5000))
+    port = int(os.environ.get('PORT', 5000)) # port 5000
     app.run(host=host, port=port)
 
-def run_testing():
-    app.run()
-
 if __name__ == '__main__':
-    # run() 
-    run_testing() # Replace with run() before committing
+    run() 
