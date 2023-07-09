@@ -22,14 +22,14 @@
         <link rel="stylesheet" href="static/styles/popup.css">
         <script src="static/js/popup.js"></script>
         <script src="static/js/form.js"></script>
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKbCR95V5B9dvUtfbkc-_uAYqoGJvWj9o&libraries=places"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKbCR95V5B9dvUtfbkc-_uAYqoGJvWj9o&libraries=places"></script>
         <script>
             function initAutocomplete() {
                 // Bind autocomplete to location input field
                 var locationInput = document.getElementById('location');
                 var autocomplete = new google.maps.places.Autocomplete(locationInput);
-            }
-            window.addEventListener('DOMContentLoaded', function() {
+            };
+            document.addEventListener('DOMContentLoaded', function() {
                 initAutocomplete();
             });
         </script>
@@ -43,7 +43,7 @@
         </script>
     </head>
 <body>
-    <div class="primary-container"> <!--  onload="initAutocomplete()" -->
+    <div class="primary-container">
         <h1>HashtagHelper</h1>
         <p>
             <a href="mailto:info.socialtechllc@gmail.com" target="_blank">Contact Us</a>
