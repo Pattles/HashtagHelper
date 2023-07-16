@@ -12,9 +12,9 @@ def get_all_industries():
 
     return industries
 
-def get_county(location):
+def get_city_and_county(location):
     """
-    Creates a hashtag for a COUNTY
+    Creates a hashtag for a CITY & COUNTY
     rtype: #str | None
     """
     
@@ -25,35 +25,19 @@ def get_county(location):
         # Get the first result
         result = response['results'][0]
 
-        # Find the county in the address components
-        for component in result['address_components']:
-            if 'administrative_area_level_2' in component['types']:
-                county_raw = component['long_name'].lower()
-                county = county_raw.replace(' ', '')
-                return f'#{county}'
-
-    return None
-
-def get_city(location):
-    """
-    Creates a hashtag for a CITY
-    rtype: #str | None
-    """
-    
-    url = f'https://maps.googleapis.com/maps/api/geocode/json?address={location}&components=country:US&key={google_maps_api_key}'
-    response = requests.get(url).json()
-
-    if response['status'] == 'OK':
-        # Get the first result
-        result = response['results'][0]
-
+        city, county = None, None
         # Find the city in the address components
         for component in result['address_components']:
             if 'locality' in component['types']:
                 city_raw = component['long_name'].lower()
                 city = city_raw.replace(' ', '')
-                return f'#{city}'
+            if 'administrative_area_level_2' in component['types']:
+                county_raw = component['long_name'].lower()
+                county = county_raw.replace(' ', '')
 
+        return f'#{city}', f'#{county}'
+
+    print(response['status'])
     return None
 
 def get_top_10_hashtags(list):
@@ -147,8 +131,7 @@ def process_data(location, industry, business_name, caption):
     # Getting all hashtags from all functions. 'None' instances are handled later.
     industry_list = get_industry_list(industry)
     business_name_hashtag = get_business_name_hashtag(business_name)
-    city_hashtag = get_city(location)
-    county_hashtag = get_county(location)
+    city_hashtag, county_hashtag = get_city_and_county(location)
     caption_hashtags = process_caption(caption)
 
     all_hashtags = []
@@ -168,15 +151,18 @@ def process_data(location, industry, business_name, caption):
 
     # Adding County, City, and Business name hashtags.
     if business_name_hashtag and business_name_hashtag not in top_hashtags:
-        top_hashtags.pop(random.randint(1, 5))
+        if len(top_hashtags) >= 10:
+            top_hashtags.pop(random.randint(1, 5))
         top_hashtags.append(business_name_hashtag)
     
     if county_hashtag:
-        top_hashtags.pop(random.randint(1, 5))
+        if len(top_hashtags) >= 10:
+            top_hashtags.pop(random.randint(1, 5))
         top_hashtags.append(county_hashtag)
 
     if city_hashtag:
-        top_hashtags.pop(random.randint(1, 5))
+        if len(top_hashtags) >= 10:
+            top_hashtags.pop(random.randint(1, 5))
         top_hashtags.append(city_hashtag)
 
     return top_hashtags
