@@ -7,3 +7,4 @@ from flashtext import KeywordProcessor
 import discord
 
 google_maps_api_key = 'AIzaSyAKbCR95V5B9dvUtfbkc-_uAYqoGJvWj9o'
+# This API key is currently worthless.
